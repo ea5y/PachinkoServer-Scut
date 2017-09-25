@@ -1,0 +1,38 @@
+Time:2017-09-12 17:43:07:732-Trace>>Action1002 error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.Send(IEnumerable`1 sessions, Int32 ignoreUserId)
+   在 GameServer.CsScript.Action.Action1002.TakeActionAffter(Boolean state)
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 192.
+Url:MsgId=1&ActionId=1002&Sid=s_f9a9a3a456ea44d882d45b4c1cbfde11|0|0&Uid=0&data={"Username":"Test","Password":"565656"}, Uid:3, Pid:
+Host:192.168.1.209:56790
+
+
+Time:2017-09-12 17:43:36:469-Trace>>Action1002 error:System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 GameServer.CsScript.CharacterManager.AddCharacter(Int32 key, CharacterSyncData value)
+   在 GameServer.CsScript.Action.Action1002.TakeAction()
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&Sid=s_f9a9a3a456ea44d882d45b4c1cbfde11|0|0&Uid=0&data={"Username":"Test","Password":"565656"}, Uid:3, Pid:
+Host:192.168.1.209:56830
+
+
+Time:2017-09-12 17:44:00:291-Trace>>Action1002 error:System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 GameServer.CsScript.CharacterManager.AddCharacter(Int32 key, CharacterSyncData value)
+   在 GameServer.CsScript.Action.Action1002.TakeAction()
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&Sid=s_f9a9a3a456ea44d882d45b4c1cbfde11|0|0&Uid=0&data={"Username":"Test","Password":"565656"}, Uid:3, Pid:
+Host:192.168.1.209:56908
+
+
+Time:2017-09-12 17:44:27:393-Trace>>Action1002 error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.Send(IEnumerable`1 sessions, Int32 ignoreUserId) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 56
+   在 GameServer.CsScript.Action.Action1002.TakeActionAffter(Boolean state) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 76
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 192.
+Url:MsgId=1&ActionId=1002&Sid=s_f9a9a3a456ea44d882d45b4c1cbfde11|0|0&Uid=0&data={"Username":"Test","Password":"565656"}, Uid:3, Pid:
+Host:192.168.1.209:56965
+
+

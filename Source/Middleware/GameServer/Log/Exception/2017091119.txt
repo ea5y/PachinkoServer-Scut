@@ -1,0 +1,26 @@
+Time:2017-09-11 19:57:14:012-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs, Line:41
+Message:当前上下文中不存在名称“Current”
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs, Line:41
+Message:当前上下文中不存在名称“OpCode”
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs, Line:43
+Message:当前上下文中不存在名称“ResultCode”
+
+
+Time:2017-09-11 19:57:14:014-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-09-11 19:58:12:671-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs, Line:47
+Message:当前上下文中不存在名称“Current”
+
+
+Time:2017-09-11 19:58:12:672-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+

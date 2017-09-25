@@ -1,0 +1,9 @@
+﻿E:\project\Scut\Release\6.7.9.11\Console> "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /t:library /utf8output /R:"System.dll" /R:"System.Core.dll" /R:"System.Data.dll" /R:"System.Xml.dll" /R:"System.Xml.Linq.dll" /R:"Microsoft.CSharp.dll" /R:"System.Configuration.dll" /R:"System.Web.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\NLog.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\Newtonsoft.Json.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\protobuf-net.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\ServiceStack.Redis.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\ZyGames.Framework.Common.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\ZyGames.Framework.dll" /R:"E:\project\Scut\Release\6.7.9.11\Console\ZyGames.Framework.Game.dll" /out:"E:\project\Scut\Release\6.7.9.11\Console\temp\32xag0zn.dll" /D:DEBUG /debug+ /optimize- /checked  "E:\project\Scut\Release\6.7.9.11\Console\Script\Model\UserRanking.cs" "E:\project\Scut\Release\6.7.9.11\Console\Script\Model\Properties\AssemblyInfo.cs" "E:\project\Scut\Release\6.7.9.11\Console\Script\Model\GuestUser.cs"
+
+
+Microsoft (R) Visual C# Compiler version 4.6.1055.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+

@@ -1,0 +1,12 @@
+Update script file count:1.
+20:00:25 csharp script compile start...
+20:00:25 csharp script compiled successfully.
+20:00:38 Clear expired cache end.
+20:10:39 Clear expired cache end.
+20:20:39 Clear expired cache end.
+20:30:40 Clear expired cache end.
+Update script file count:1.
+20:37:10 csharp script compile start...
+20:37:10 csharp script compiled successfully.
+20:40:40 Clear expired cache end.
+20:50:40 Clear expired cache end.

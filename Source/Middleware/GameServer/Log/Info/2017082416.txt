@@ -1,0 +1,49 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:38:16 Server is starting...
+16:38:17 Server failed to start error:The game server is using Redis at host name "LUWANZHONG" path E:\project\Scut\Source\Middleware\GameServer\.
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:38:52 Server is starting...
+16:38:52 Redis server connect successfully.
+16:38:52 DB server connect successfully.
+16:38:54 Start checking table schema, please wait.
+16:38:54 Check table schema successfully.
+16:38:54 script compiled successfully.
+16:38:55 CacheFactory listen has started...
+16:38:55 Socket service 192.168.1.209:9001 is started.
+16:38:55 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:47:16 Server is starting...
+16:47:16 Redis server connect successfully.
+16:47:17 DB server connect successfully.
+16:47:53 Start checking table schema, please wait.
+16:47:53 Check table schema successfully.
+16:47:53 script compiled successfully.
+16:47:56 CacheFactory listen has started...
+16:47:56 Socket service 192.168.1.209:9001 is started.
+16:47:56 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

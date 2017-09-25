@@ -1,0 +1,27 @@
+Time:2017-08-24 13:33:20:877-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 13:33:20:950-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 13:33:20:962-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 13:33:21:205-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 13:33:21:208-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 13:33:21:209-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 13:36:37:057-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 13:37:50:665-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 13:39:45:953-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+

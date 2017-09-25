@@ -1,0 +1,32 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:43:20 Server is starting...
+15:43:21 Redis server connect successfully.
+15:43:21 DB server connect successfully.
+15:43:23 Server failed to start error:The csharp script compile error
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:46:00 Server is starting...
+15:46:00 Redis server connect successfully.
+15:46:01 DB server connect successfully.
+15:46:02 Start checking table schema, please wait.
+15:46:03 Check table schema successfully.
+15:46:03 script compiled successfully.
+15:46:03 CacheFactory listen has started...
+15:46:03 Socket service 192.168.1.209:9001 is started.
+15:46:03 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

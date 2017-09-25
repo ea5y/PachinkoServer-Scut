@@ -1,0 +1,12 @@
+Time:2017-09-05 20:33:03:816-Trace>>ClearTemp dir E:\project\ScutServer\Source\Middleware\GameServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“NLog.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-09-05 20:33:05:160-Trace>>ClearTemp dir E:\project\ScutServer\Source\Middleware\GameServer\temp error:System.UnauthorizedAccessException: 对路径“2sij51gf.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+

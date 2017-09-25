@@ -1,0 +1,34 @@
+Time:2017-08-24 09:44:12:811-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 09:44:12:835-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 09:44:12:837-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 09:44:12:841-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 09:44:12:842-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 09:45:05:823-Trace>>FindEntityFromRedis ScutGameServer.Model.Users keys:2
+Error:System.Exception: Generate sql of "ScutGameServer.Model.Users" entity error
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.GenerateSqlFrom(SqlDataSender sender, RedisClient client, Byte[][] keys, Byte[][] values) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 1018
+
+
+Time:2017-08-24 09:45:06:098-Trace>>FindEntityFromRedis ScutGameServer.Model.GameUser keys:2
+Error:System.Exception: Generate sql of "ScutGameServer.Model.GameUser" entity error
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.GenerateSqlFrom(SqlDataSender sender, RedisClient client, Byte[][] keys, Byte[][] values) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 1018
+
+
+Time:2017-08-24 09:48:16:735-Trace>>Not found DB connection key "ConnData" of the UserRanking entity.
+
+
+Time:2017-08-24 09:48:16:966-Trace>>Not found DB connection key "ConnData" of the GameUser entity.
+
+
+Time:2017-08-24 09:50:56:500-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+

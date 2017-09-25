@@ -1,0 +1,30 @@
+Time:2017-08-24 10:05:30:188-Trace>>ClearTemp dir E:\project\Scut\Source\Middleware\GameServer\temp error:System.UnauthorizedAccessException: 对路径“ibo5gysg.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-08-24 10:11:55:709-Trace>>ClearTemp dir E:\project\Scut\Source\Middleware\GameServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-08-24 10:11:58:910-Trace>>ClearTemp dir E:\project\Scut\Source\Middleware\GameServer\temp error:System.UnauthorizedAccessException: 对路径“1ank55x0.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-08-24 10:16:30:617-Trace>>ClearTemp dir E:\project\Scut\Source\Middleware\GameServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“ZyGames.Framework.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-08-24 10:16:32:418-Trace>>ClearTemp dir E:\project\Scut\Source\Middleware\GameServer\temp error:System.UnauthorizedAccessException: 对路径“1ank55x0.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+

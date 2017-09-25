@@ -1,0 +1,10 @@
+Time:2017-09-18 16:33:31:432-Trace>>Disconnected error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.RemoveCharacter(Int32 key) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 31
+   在 GameServer.CsScript.CharacterManager.Recycle(GameSession session) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 66
+   在 GameServer.Script.CsScript.Cast.CastRecyclePlayer.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastRecyclePlayer.cs:行号 21
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 Game.Script.MainClass.OnDisconnected(GameSession session) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 67
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.socketLintener_Disconnected(Object sender, ConnectionEventArgs e) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 176
+
+

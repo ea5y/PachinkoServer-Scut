@@ -1,0 +1,1477 @@
+Time:2017-09-18 17:05:44:656-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs, Line:32
+Message:与“GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.CastSyncPlayerPosition(ZyGames.Framework.Game.Contract.GameSession, GameServer.CsScript.CommunicationDataStruct.SyncPositionData)”最匹配的重载方法具有一些无效参数
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs, Line:32
+Message:参数 2: 无法从“GameServer.CsScript.CommunicationDataStruct.PositionData”转换为“GameServer.CsScript.CommunicationDataStruct.SyncPositionData”
+
+
+Time:2017-09-18 17:05:44:700-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-09-18 17:06:44:504-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs, Line:32
+Message:应输入 ;
+
+
+Time:2017-09-18 17:06:44:505-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-09-18 17:15:48:297-Trace>>Disconnected error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.RemoveCharacter(Int32 key) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 31
+   在 GameServer.CsScript.CharacterManager.Recycle(GameSession session) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 66
+   在 GameServer.Script.CsScript.Cast.CastRecyclePlayer.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastRecyclePlayer.cs:行号 21
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 Game.Script.MainClass.OnDisconnected(GameSession session) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 67
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.socketLintener_Disconnected(Object sender, ConnectionEventArgs e) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 176
+
+
+Time:2017-09-18 17:18:51:185-Trace>>Closed error, connect status: TotalCount=2, CurrentCount=-1, CloseCount=3, RejectedCount=0
+
+
+Time:2017-09-18 17:34:38:620-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=212&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.539425671100616,"PosY":0.0065029039978981,"PosZ":-3.07836103439331}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:41:188-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=302&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.656435251235962,"PosY":0.00650285929441452,"PosZ":-3.0903308391571}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:45:619-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=626&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:46:624-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=506&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.850537359714508,"PosY":0.0065029039978981,"PosZ":-3.01961779594421}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:49:156-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=830&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:50:492-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=904&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:51:105-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=675&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.712339580059052,"PosY":0.00650285929441452,"PosZ":-2.90194272994995}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:51:576-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=692&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.688007831573486,"PosY":0.00650287419557571,"PosZ":-2.90179824829102}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:53:711-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1086&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:54:944-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1155&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:56:590-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=884&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.826673924922943,"PosY":0.0065029114484787,"PosZ":-2.97509455680847}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:56:931-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1268&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:57:328-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1291&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:58:209-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=944&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.840821206569672,"PosY":0.00650287419557571,"PosZ":-3.05412793159485}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:34:59:346-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1403&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:34:59:687-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1001&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.862718343734741,"PosY":0.0065029039978981,"PosZ":-3.07856369018555}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:00:316-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1456&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:00:391-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1457&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:01:180-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1499&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:02:404-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1562&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:03:472-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1627&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:04:534-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1187&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.838443338871002,"PosY":0.0065029039978981,"PosZ":-3.1251904964447}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:05:143-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1721&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.538002252578735,"PosY":0.0065028965473175,"PosZ":-3.07821846008301}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:13:524-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1245&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.835508942604065,"PosY":0.0065029039978981,"PosZ":-3.1357569694519}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:14:223-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1271&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.862604260444641,"PosY":0.0065028965473175,"PosZ":-3.13607454299927}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:14:558-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2270&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:14:793-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2281&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:14:910-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2288&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:15:332-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1311&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.868939161300659,"PosY":0.00650288909673691,"PosZ":-3.15839695930481}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:19:440-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2538&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:19:547-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1475&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.839494705200195,"PosY":0.00650288909673691,"PosZ":-3.0049352645874}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:19:613-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1477&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.840148448944092,"PosY":0.00650288909673691,"PosZ":-3.00071215629578}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:20:145-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1496&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.840536832809448,"PosY":0.0065029039978981,"PosZ":-2.9740195274353}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:20:340-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2591&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:20:980-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2625&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:21:045-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1530&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.803030848503113,"PosY":0.00650288909673691,"PosZ":-2.95774221420288}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:23:597-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2775&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:24:541-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2827&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:25:744-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2897&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:27:192-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2976&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.569220244884491,"PosY":0.0065028965473175,"PosZ":-3.14317393302917}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:27:876-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1779&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.864714622497559,"PosY":0.0065028965473175,"PosZ":-3.15153694152832}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:43:452-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3933&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:45:886-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1896&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.887354671955109,"PosY":0.0065029039978981,"PosZ":-3.10881495475769}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:46:190-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4080&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:46:240-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4083&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:47:057-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1938&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.903534948825836,"PosY":0.00650288909673691,"PosZ":-3.05690336227417}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:48:106-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4195&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:48:706-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1999&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.864507675170898,"PosY":0.0065028965473175,"PosZ":-2.99204087257385}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:51:372-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4384&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:53:641-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4512&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:54:889-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4586&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:35:56:240-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2280&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:58:024-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2346&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:35:59:211-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4842&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:00:506-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2439&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:02:272-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2504&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:02:591-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5042&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:07:917-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2717&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:08:759-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5391&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:09:125-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2765&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:11:259-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5534&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:12:712-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=2901&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:15:231-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5759&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:15:706-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3016&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:16:108-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5808&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:17:824-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5903&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:17:915-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5906&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:19:343-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5988&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:20:678-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3205&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:25:387-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3382&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:25:753-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3395&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:26:550-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3425&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:27:723-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3469&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:28:697-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3507&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:28:794-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=6528&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:30:234-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=6599&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:33:169-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=6761&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:36:057-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3806&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:37:854-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=6995&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:39:225-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3931&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:39:603-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3943&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:39:872-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7093&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:40:119-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3963&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:41:254-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7155&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:42:371-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7211&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:42:644-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4058&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:42:933-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7240&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:43:195-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7252&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:44:557-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7318&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:44:813-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7332&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:46:166-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4201&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:46:801-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4227&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:48:171-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4280&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:50:250-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7619&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:50:462-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4372&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:53:596-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=7798&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.533275485038757,"PosY":0.0065028965473175,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:36:53:966-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4510&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.888907790184021,"PosY":0.00650288909673691,"PosZ":-3.18138885498047}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:57:475-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4577&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.953382074832916,"PosY":0.0065028965473175,"PosZ":-3.16413545608521}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:59:085-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4641&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.935507416725159,"PosY":0.0065028965473175,"PosZ":-3.08575367927551}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:36:59:154-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8096&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:03:294-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8299&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:06:618-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8457&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:08:077-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8533&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:10:589-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5116&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.93400239944458,"PosY":0.0065028965473175,"PosZ":-3.07939648628235}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:11:056-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5136&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.93400239944458,"PosY":0.0065028965473175,"PosZ":-3.07939648628235}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:11:368-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5147&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.93400239944458,"PosY":0.0065028965473175,"PosZ":-3.07939648628235}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:11:516-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8707&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:12:521-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8764&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:14:221-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8854&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:14:783-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8882&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:15:122-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8900&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:15:965-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=8946&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:17:752-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=9036&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:19:178-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5452&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.897702157497406,"PosY":0.00650288909673691,"PosZ":-2.98223471641541}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:19:509-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=9130&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:20:053-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5486&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.866957724094391,"PosY":0.0065028965473175,"PosZ":-3.01472949981689}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:21:241-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=9221&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:21:472-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=9234&ActionId=1004&Sid=s_83d88365227c41eeb2897123d06fb545|0|0&Uid=0&data={"PosX":0.501881241798401,"PosY":0.00650288164615631,"PosZ":-3.14834904670715}, Uid:8, Pid:
+Host:192.168.1.208:56370
+
+
+Time:2017-09-18 17:37:21:526-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5543&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.850380897521973,"PosY":0.0065028965473175,"PosZ":-3.03225588798523}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+
+Time:2017-09-18 17:37:23:966-Trace>>Action1004 error:System.InvalidOperationException: 集合已修改；可能无法执行枚举操作。
+   在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Enumerator.MoveNext()
+   在 GameServer.CsScript.CharacterManager.SyncPosition(GameSession session, SyncPositionData data) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 112
+   在 GameServer.Script.CsScript.Cast.CastSyncPlayerPosition.Send() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\CastSyncPlayerPosition.cs:行号 24
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 17
+   在 GameServer.CsScript.Action.Action1004.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1004.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5631&ActionId=1004&Sid=s_dd30a03b16a64d519f6f0ada9e7f847f|0|0&Uid=0&data={"PosX":0.850380897521973,"PosY":0.0065028965473175,"PosZ":-3.03225588798523}, Uid:3, Pid:
+Host:192.168.1.208:56361
+
+

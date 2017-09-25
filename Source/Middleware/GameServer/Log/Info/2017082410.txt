@@ -1,0 +1,135 @@
+10:01:00 Clear expired cache end.
+Update script file count:1.
+10:05:27 model script compile start...
+Time:2017-08-24 10:05:42:118-Wait for the update before Model script...
+
+
+Time:2017-08-24 10:05:43:829-Update before Model script OK.
+
+
+10:05:48 Start checking table schema, please wait.
+10:05:48 Check table schema successfully.
+Time:2017-08-24 10:05:48:095-Update Model script success.
+
+
+10:05:48 script compiled successfully.
+10:05:48 model script compiled successfully, the assemblyName:1ank55x0, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null.
+10:11:20 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:11:41 Server is starting...
+10:11:45 Redis server connect successfully.
+10:11:50 DB server connect successfully.
+Update script file count:0.
+10:12:02 Start checking table schema, please wait.
+10:12:02 Check table schema successfully.
+10:12:02 script compiled successfully.
+10:12:03 CacheFactory listen has started...
+10:12:04 Socket service 192.168.1.209:9001 is started.
+10:12:04 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:16:29 Server is starting...
+10:16:29 Redis server connect successfully.
+10:16:30 DB server connect successfully.
+Update script file count:0.
+10:16:33 Start checking table schema, please wait.
+10:16:38 Check table schema successfully.
+10:16:38 script compiled successfully.
+10:16:38 CacheFactory listen has started...
+10:16:38 Socket service 192.168.1.209:9001 is started.
+10:16:38 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+10:21:21 Clear expired cache end.
+10:31:21 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:38:07 Server is starting...
+10:38:08 Redis server connect successfully.
+10:38:10 DB server connect successfully.
+10:38:31 Start checking table schema, please wait.
+10:38:31 Check table schema successfully.
+10:38:31 script compiled successfully.
+10:38:33 CacheFactory listen has started...
+10:38:33 Socket service 192.168.1.209:9001 is started.
+10:38:33 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:41:19 Server is starting...
+10:41:19 Redis server connect successfully.
+10:41:20 DB server connect successfully.
+10:41:23 Start checking table schema, please wait.
+10:41:25 Check table schema successfully.
+10:41:25 script compiled successfully.
+10:41:25 CacheFactory listen has started...
+10:41:26 Socket service 192.168.1.209:9001 is started.
+10:41:26 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:47:02 Server is starting...
+10:47:04 Redis server connect successfully.
+10:47:06 DB server connect successfully.
+10:47:28 Start checking table schema, please wait.
+10:47:28 Check table schema successfully.
+10:47:28 script compiled successfully.
+10:47:28 CacheFactory listen has started...
+10:47:29 Socket service 192.168.1.209:9001 is started.
+10:47:29 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:51:55 Server is starting...
+10:51:56 Redis server connect successfully.
+10:51:56 DB server connect successfully.
+10:51:58 Start checking table schema, please wait.
+10:51:58 Check table schema successfully.
+10:51:58 script compiled successfully.
+10:51:58 CacheFactory listen has started...
+10:51:58 Socket service 192.168.1.209:9001 is started.
+10:51:58 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

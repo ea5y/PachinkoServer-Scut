@@ -1,0 +1,408 @@
+Time:2017-09-10 18:26:18:038-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39734, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:27:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39770, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:28:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39772, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:29:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39740, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:30:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39780, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:31:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39782, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:32:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39784, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:33:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39738, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:34:18:030-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39786, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:35:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39790, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:36:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39788, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:37:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39794, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:38:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39792, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:39:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39796, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:40:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39802, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:41:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39804, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:42:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39808, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:43:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39778, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:44:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39806, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:45:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39812, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:46:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39816, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:47:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39810, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:48:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39820, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:49:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39818, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:50:18:031-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39826, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:51:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39828, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:52:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39814, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:53:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39834, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:54:18:033-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39832, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:55:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39836, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:56:18:032-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39838, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:57:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39840, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:58:18:036-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39830, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+
+Time:2017-09-10 18:59:18:034-Trace>>Save session to redis faild,ServiceStack.Redis.RedisResponseException: MISCONF Redis is configured to save RDB snapshots, but it is currently not able to persist on disk. Commands that may modify the data set are disabled, because this instance is configured to report errors during writes if RDB snapshotting fails (stop-writes-on-bgsave-error option). Please check the Redis logs for details about the RDB error., sPort: 39844, LastCommand: 
+  at ServiceStack.Redis.RedisNativeClient.CreateResponseError (System.String error) [0x00039] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisNativeClient.ExpectSuccess () [0x00044] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.Pipeline.QueuedRedisOperation.ProcessResult () [0x002d9] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ServiceStack.Redis.RedisAllPurposePipeline.Flush () [0x00021] in <5db8e0987aec4fac873d7c9828980d56>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (ServiceStack.Redis.RedisClient client, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00058] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Action`1[T] action, ZyGames.Framework.Redis.RedisPoolSetting setting, System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x0002f] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.ProcessPipeline (System.Func`2[ServiceStack.Redis.RedisClient,System.Int64][] pipelineActions) [0x00001] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Redis.RedisConnectionPool.SetExpire (System.String[] keys, System.String[] values, System.Int32 expireSecond) [0x0008e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Game.Contract.GameSession.SaveTo (System.Collections.Generic.IList`1[T] sessions) [0x0009c] in <6a4807b0dfb04bffa2454a859dfe4f15>:0 
+
+

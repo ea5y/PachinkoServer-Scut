@@ -1,0 +1,36 @@
+Time:2017-08-24 15:01:54:729-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 15:01:55:031-Trace>>Redis TryGetEntity ScutGameServer.Model.GameUser_10000 246ms
+>>init time:0ms run:0ms
+>>redis get time:1ms run:1ms
+>>deserialize time:246ms run:245ms
+
+
+Time:2017-08-24 15:01:55:036-Trace>>Try load cache data:ScutGameServer.Model.GameUser-10000 258ms
+>>received count:0 time:255ms run:255ms
+>>Init cache: time:258ms run:3ms
+
+
+Time:2017-08-24 15:01:55:044-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 15:01:55:061-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 15:01:55:809-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 15:01:55:811-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 15:01:55:812-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 15:10:12:703-Trace>>Action1002 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 63
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&data={"Username":"easy5","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:54576
+
+

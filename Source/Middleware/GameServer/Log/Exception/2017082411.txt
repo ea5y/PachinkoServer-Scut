@@ -1,0 +1,199 @@
+Time:2017-08-24 11:23:29:091-Trace>>Action1002 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 53
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&data={"Username":"easy1","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:54584
+
+
+Time:2017-08-24 11:29:41:812-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 11:30:12:410-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:30:12:436-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:30:12:464-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:30:12:468-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:30:12:470-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:33:13:300-Trace>>CheckTableSchema GameUser error:System.Exception: Execute sql error:ALTER TABLE `GameUser` ADD COLUMN (
+    `Index` Int AUTO_INCREMENT); ---> MySql.Data.MySqlClient.MySqlException: Incorrect table definition; there can be only one auto column and it must be defined as a key
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 662
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 726
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.OpenConnection(Action`1 action) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 206
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.CreateColumn(String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 648
+   在 ZyGames.Framework.Model.EntitySchemaSet.ModifyTableSchema(SchemaTable schema, DbBaseProvider dbprovider, String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 894
+   在 ZyGames.Framework.Model.EntitySchemaSet.CheckTableSchema(SchemaTable schema) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 806
+
+
+Time:2017-08-24 11:34:05:223-Trace>>CheckTableSchema GameUser error:System.Exception: Execute sql error:ALTER TABLE `GameUser` ADD COLUMN (
+    `Index` Int AUTO_INCREMENT); ---> MySql.Data.MySqlClient.MySqlException: Incorrect table definition; there can be only one auto column and it must be defined as a key
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 662
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 726
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.OpenConnection(Action`1 action) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 206
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.CreateColumn(String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 648
+   在 ZyGames.Framework.Model.EntitySchemaSet.ModifyTableSchema(SchemaTable schema, DbBaseProvider dbprovider, String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 894
+   在 ZyGames.Framework.Model.EntitySchemaSet.CheckTableSchema(SchemaTable schema) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 806
+
+
+Time:2017-08-24 11:36:08:523-Trace>>CheckTableSchema GameUser error:System.Exception: Execute sql error:ALTER TABLE `GameUser` ADD COLUMN (
+    `Index` Int AUTO_INCREMENT); ---> MySql.Data.MySqlClient.MySqlException: Incorrect table definition; there can be only one auto column and it must be defined as a key
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 662
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 726
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.OpenConnection(Action`1 action) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 206
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.CreateColumn(String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 648
+   在 ZyGames.Framework.Model.EntitySchemaSet.ModifyTableSchema(SchemaTable schema, DbBaseProvider dbprovider, String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 894
+   在 ZyGames.Framework.Model.EntitySchemaSet.CheckTableSchema(SchemaTable schema) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 806
+
+
+Time:2017-08-24 11:36:08:556-Trace>>Script init error:System.ArgumentException: "EntityTable.CacheType:Entity" attribute of ScutGameServer.Model.GameUser class is error
+参数名: CacheType
+   在 ZyGames.Framework.Model.EntitySchemaSet.InitSchema(Type type, Boolean isReset) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 267
+   在 ZyGames.Framework.Model.EntitySchemaSet.LoadAssembly(Assembly assembly) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 184
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 210
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-08-24 11:36:08:587-Trace>>OnInit error:System.ArgumentException: "EntityTable.CacheType:Entity" attribute of ScutGameServer.Model.GameUser class is error
+参数名: CacheType
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-08-24 11:38:00:784-Trace>>CheckTableSchema GameUser error:System.Exception: Execute sql error:ALTER TABLE `GameUser` CHANGE `UserId` `UserId` Int ;ALTER TABLE `GameUser` CHANGE `Index` `Index` Int not null;
+ALTER TABLE `GameUser` ADD PRIMARY KEY (`Index`); ---> MySql.Data.MySqlClient.MySqlException: Invalid use of NULL value
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 721
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.<>c__DisplayClass19_0.<CreateColumn>b__0(MySqlConnection conn) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 726
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.OpenConnection(Action`1 action) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 206
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.CreateColumn(String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 648
+   在 ZyGames.Framework.Model.EntitySchemaSet.ModifyTableSchema(SchemaTable schema, DbBaseProvider dbprovider, String tableName, DbColumn[] columns) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 894
+   在 ZyGames.Framework.Model.EntitySchemaSet.CheckTableSchema(SchemaTable schema) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Model\EntitySchemaSet.cs:行号 806
+
+
+Time:2017-08-24 11:39:29:483-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 11:39:29:499-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:39:29:510-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:39:29:567-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:39:29:570-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:39:29:572-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:41:51:058-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 11:41:51:072-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:41:51:085-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:41:51:131-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:41:51:133-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:41:51:136-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:43:33:736-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:43:33:737-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:43:33:740-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:01:552-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:01:554-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:01:557-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:22:279-Trace>>Action1002 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 53
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&data={"Username":"easy2","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:56015
+
+
+Time:2017-08-24 11:44:31:002-Trace>>Action1002 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 53
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&data={"Username":"easy2","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:56102
+
+
+Time:2017-08-24 11:44:54:241-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 11:44:54:254-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:54:260-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:54:293-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:54:297-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 11:44:54:299-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+

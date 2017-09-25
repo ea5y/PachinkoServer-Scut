@@ -1,0 +1,297 @@
+Time:2017-09-05 20:00:01:917-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:01:01:931-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:02:01:943-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:03:01:958-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:04:01:971-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:05:01:985-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:06:01:999-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:07:02:013-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:08:02:025-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:09:02:040-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:10:02:053-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:11:02:066-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:12:02:080-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:13:02:094-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:14:02:107-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:15:02:121-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:16:02:134-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:17:02:148-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:18:02:162-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:19:02:175-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:20:02:189-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:21:02:203-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:22:02:216-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:23:02:228-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:24:02:243-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:25:02:257-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:26:02:269-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:27:02:284-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:27:58:007-Trace>>User 0 sessionIds_5a4a513a4e124bcdbf3335110ef174ad|0|0 is expire 2017/9/5 18:27:50(7200sec)
+
+
+Time:2017-09-05 20:28:02:298-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:28:58:020-Trace>>User 0 sessionIds_77aa2a09c35f40d68f9664e5c7db2adc|0|0 is expire 2017/9/5 18:28:20(7200sec)
+
+
+Time:2017-09-05 20:29:02:311-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:29:58:035-Trace>>User 0 sessionIds_7e88d091b4744331bd19fe662f1de9ed|0|0 is expire 2017/9/5 18:29:22(7200sec)
+
+
+Time:2017-09-05 20:29:58:036-Trace>>User 0 sessionIds_a63e5357c6674f8ba4d9444712f29f29|0|0 is expire 2017/9/5 18:29:52(7200sec)
+
+
+Time:2017-09-05 20:30:02:324-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:30:58:047-Trace>>User 0 sessionIds_726eb22712ae4ade9c24c718d2735bc9|0|0 is expire 2017/9/5 18:30:55(7200sec)
+
+
+Time:2017-09-05 20:30:58:049-Trace>>User 0 sessionIds_3ab936397b2041b79641fc3bfd8a1412|0|0 is expire 2017/9/5 18:30:55(7200sec)
+
+
+Time:2017-09-05 20:31:02:338-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:31:58:061-Trace>>User 0 sessionIds_43a51972612846ecb121bbb451322f5c|0|0 is expire 2017/9/5 18:31:15(7200sec)
+
+
+Time:2017-09-05 20:32:02:352-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:32:58:076-Trace>>User 1 sessionIds_a9e1fa14b85b4204824603203b7d6076|0|0 is expire 2017/9/5 18:32:50(7200sec)
+
+
+Time:2017-09-05 20:32:58:077-Trace>>User 0 sessionIds_0f094f1163f74bd88d1f331687fbc5db|0|0 is expire 2017/9/5 18:32:11(7200sec)
+
+
+Time:2017-09-05 20:32:58:077-Trace>>User 0 sessionIds_f57ab38233814120ad54594d21255dd4|0|0 is expire 2017/9/5 18:32:50(7200sec)
+
+
+Time:2017-09-05 20:33:02:937-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:33:07:632-Redis write queue start init...
+
+
+Time:2017-09-05 20:33:07:634-Sql wait write queue start init...
+
+
+Time:2017-09-05 20:33:07:635-Sql write queue start init...
+
+
+Time:2017-09-05 20:33:08:081-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:34:02:940-Trace>>Socket connect status: TotalCount=6, CurrentCount=1, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:34:08:088-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:35:02:954-Trace>>Socket connect status: TotalCount=6, CurrentCount=1, CloseCount=5, RejectedCount=0
+
+
+Time:2017-09-05 20:35:08:104-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:36:02:968-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:36:08:116-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:37:02:982-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:37:08:129-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:38:02:995-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:38:08:143-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:39:03:008-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:39:08:157-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:40:03:023-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:40:08:169-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:41:03:036-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:41:08:183-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:42:03:048-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:42:08:197-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:43:03:063-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:43:08:210-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:44:03:077-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:44:08:225-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:45:03:090-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:45:08:238-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:46:03:103-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:46:08:252-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:47:03:116-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:47:08:265-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:48:03:130-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:48:08:279-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:49:03:144-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:49:08:293-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:50:03:159-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:50:08:305-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:51:03:172-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:51:08:320-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:52:03:184-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:52:08:333-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:53:03:198-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2017-09-05 20:53:08:347-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:53:57:072-Redis write queue start init...
+
+
+Time:2017-09-05 20:53:57:073-Sql wait write queue start init...
+
+
+Time:2017-09-05 20:53:57:074-Sql write queue start init...
+
+
+Time:2017-09-05 20:53:57:569-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:54:10:787-Trace>>User 0 sessionIds_a9e1fa14b85b4204824603203b7d6076|0|0 is expire 2017/9/5 18:32:50(7200sec)
+
+
+Time:2017-09-05 20:54:57:579-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:55:57:591-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:56:57:605-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:57:57:619-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-05 20:58:57:634-Trace>>Socket connect status: TotalCount=1, CurrentCount=0, CloseCount=1, RejectedCount=0
+
+
+Time:2017-09-05 20:59:57:646-Trace>>Socket connect status: TotalCount=1, CurrentCount=0, CloseCount=1, RejectedCount=0
+
+

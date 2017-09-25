@@ -1,0 +1,6 @@
+Time:2017-09-05 13:33:51:805-Trace>>ClearTemp dir E:\project\ScutServer\Source\Middleware\GameServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“Newtonsoft.Json.DLL”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+

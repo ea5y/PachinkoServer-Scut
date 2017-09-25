@@ -1,0 +1,7 @@
+Time:2017-08-11 14:48:27:975-Trace>>Action request GameServer.CsScript.Action.Action100,GameServer.CsScript error:System.NotSupportedException: Not found script action100, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId) 位置 f:\oschina\Scut\Source\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:行号 707
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response) 位置 f:\oschina\Scut\Source\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:行号 123
+param:Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26ActionId%3d100%26sign%3df29ce628a6178155ec7776034c1b08e2, Uid:0, Pid:
+Host:127.0.0.1:65417
+
+

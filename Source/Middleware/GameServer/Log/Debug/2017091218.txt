@@ -1,0 +1,41 @@
+Time:2017-09-12 18:00:52:340-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:01:52:355-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:02:52:368-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:03:52:381-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:04:52:395-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:05:52:409-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:06:52:514-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:07:52:798-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:08:52:812-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:09:52:826-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:10:22:456-Trace>>Process action-1002 Uid:7 access timeout 635.0806/500ms.
+Url:Url:MsgId=1&ActionId=1002&Sid=&Uid=0&data={"Username":"Test3","Password":"565656"}, Uid:7, Pid:
+Host:192.168.1.209:62023
+
+
+Time:2017-09-12 18:10:52:840-Trace>>Socket connect status: TotalCount=5, CurrentCount=3, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 18:11:52:854-Trace>>Socket connect status: TotalCount=5, CurrentCount=3, CloseCount=2, RejectedCount=0
+
+

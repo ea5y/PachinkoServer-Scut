@@ -1,0 +1,19 @@
+Time:2017-09-15 11:17:07:795-Trace>>Action1003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.CharacterManager.GetCharaSyncDataSet() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 62
+   在 GameServer.CsScript.CharacterManager.SendTest(IEnumerable`1 sessions) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 71
+   在 GameServer.CsScript.Action.Action1003.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1003.cs:行号 20
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3&ActionId=1003&Sid=s_69b65d29efd54fb19d09c4e234489d60|0|0&Uid=0, Uid:3, Pid:
+Host:192.168.1.209:62009
+
+
+Time:2017-09-15 11:20:39:329-Trace>>Action1002 error:System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 GameServer.CsScript.CharacterManager.AddCharacter(Int32 key, CharacterSyncData value) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 47
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 69
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&Sid=s_69b65d29efd54fb19d09c4e234489d60|0|0&Uid=0&data={"Username":"Test","Password":"565656"}, Uid:3, Pid:
+Host:192.168.1.209:62317
+
+

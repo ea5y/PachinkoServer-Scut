@@ -1,0 +1,23 @@
+Time:2017-09-05 15:43:23:348-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs, Line:56
+Message:无法对属性或索引器“ZyGames.Framework.Game.Service.GameStruct.Current”赋值 -- 它是只读的
+
+
+Time:2017-09-05 15:43:23:397-Trace>>Script init error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Compile() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 325
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Load() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 317
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Init() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 85
+   在 ZyGames.Framework.Script.ScriptRuntimeScope.Init() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeScope.cs:行号 254
+   在 ZyGames.Framework.Script.ScriptRuntimeDomain.CreateScope(ScriptSettupInfo settupInfo) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeDomain.cs:行号 122
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 178
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-05 15:43:23:420-Trace>>OnInit error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+

@@ -1,0 +1,38 @@
+Time:2017-09-12 15:36:07:291-Trace>>Action1002 error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.Send(IEnumerable`1 sessions, Int32 ignoreUserId) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 53
+   在 GameServer.CsScript.Action.Action1002.TakeActionAffter(Boolean state) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 75
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 192.
+Url:MsgId=1&ActionId=1002&Sid=s_1952d116843a4ffb94448c27bf84f1d3|0|0&Uid=0&data={"Username":"Test2","Password":"565656"}, Uid:4, Pid:
+Host:192.168.1.209:4507
+
+
+Time:2017-09-12 15:37:46:593-Trace>>Action1002 error:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 GameServer.CsScript.CharacterManager.Send(IEnumerable`1 sessions, Int32 ignoreUserId) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 53
+   在 GameServer.CsScript.Action.Action1002.TakeActionAffter(Boolean state) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 76
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 192.
+Url:MsgId=2&ActionId=1002&Sid=s_1952d116843a4ffb94448c27bf84f1d3|0|0&Uid=0&data={"Username":"Test2","Password":"565656"}, Uid:4, Pid:
+Host:192.168.1.209:4507
+
+
+Time:2017-09-12 15:38:53:087-Trace>>Action1002 error:System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 GameServer.CsScript.CharacterManager.AddCharacter(Int32 key, CharacterSyncData value) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 37
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 69
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3&ActionId=1002&Sid=s_1952d116843a4ffb94448c27bf84f1d3|0|0&Uid=0&data={"Username":"Test2","Password":"565656"}, Uid:4, Pid:
+Host:192.168.1.209:4507
+
+
+Time:2017-09-12 15:41:02:431-Trace>>Action1002 error:System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 GameServer.CsScript.CharacterManager.AddCharacter(Int32 key, CharacterSyncData value) 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\CharacterManager.cs:行号 37
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\ScutServer\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 69
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=5&ActionId=1002&Sid=s_1952d116843a4ffb94448c27bf84f1d3|0|0&Uid=0&data={"Username":"Testy","Password":"565656"}, Uid:5, Pid:
+Host:192.168.1.209:4507
+
+

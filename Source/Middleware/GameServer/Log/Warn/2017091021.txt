@@ -1,0 +1,3 @@
+Time:2017-09-10 21:28:37:361-Trace>>Db connection not found provider type, LocalSqliteServer connectionString:Data Source=|DataDirectory|/aspnetdb.sqlite;version=3
+
+

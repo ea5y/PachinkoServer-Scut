@@ -1,0 +1,135 @@
+16:05:40 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:15:46 Server is starting...
+16:15:46 Redis server connect successfully.
+16:15:47 DB server connect successfully.
+16:15:49 Start checking table schema, please wait.
+16:15:49 Check table schema successfully.
+16:15:49 script compiled successfully.
+16:15:49 CacheFactory listen has started...
+16:15:49 Socket service 192.168.1.209:9001 is started.
+16:15:49 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+16:23:06 csharp script compile start...
+16:23:06 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:23:16 Server is starting...
+16:23:16 Redis server connect successfully.
+16:23:16 DB server connect successfully.
+16:23:18 Start checking table schema, please wait.
+16:23:18 Check table schema successfully.
+16:23:18 script compiled successfully.
+16:23:18 CacheFactory listen has started...
+16:23:18 Socket service 192.168.1.209:9001 is started.
+16:23:18 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+16:33:20 Clear expired cache end.
+Update script file count:1.
+16:35:20 csharp script compile start...
+16:35:20 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:36:44 Server is starting...
+16:36:44 Redis server connect successfully.
+16:36:44 DB server connect successfully.
+16:36:46 Start checking table schema, please wait.
+16:36:46 Check table schema successfully.
+16:36:46 script compiled successfully.
+16:36:46 CacheFactory listen has started...
+16:36:46 Socket service 192.168.1.209:9001 is started.
+16:36:46 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:39:47 Server is starting...
+16:39:48 Redis server connect successfully.
+16:39:48 DB server connect successfully.
+16:39:49 Start checking table schema, please wait.
+16:39:49 Check table schema successfully.
+16:39:49 script compiled successfully.
+16:39:49 CacheFactory listen has started...
+16:39:50 Socket service 192.168.1.209:9001 is started.
+16:39:50 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+16:40:33 csharp script compile start...
+16:40:34 csharp script compiled successfully.
+Update script file count:1.
+16:41:02 csharp script compile start...
+16:41:03 csharp script compiled successfully.
+Update script file count:1.
+16:41:29 csharp script compile start...
+16:41:30 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:41:38 Server is starting...
+16:41:39 Redis server connect successfully.
+16:41:39 DB server connect successfully.
+16:41:40 Start checking table schema, please wait.
+16:41:40 Check table schema successfully.
+16:41:40 script compiled successfully.
+16:41:40 CacheFactory listen has started...
+16:41:40 Socket service 192.168.1.209:9001 is started.
+16:41:41 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+16:46:18 csharp script compile start...
+16:46:18 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:46:35 Server is starting...
+16:46:36 Redis server connect successfully.
+16:46:36 DB server connect successfully.
+16:46:37 Start checking table schema, please wait.
+16:46:37 Check table schema successfully.
+16:46:38 script compiled successfully.
+16:46:38 CacheFactory listen has started...
+16:46:38 Socket service 192.168.1.209:9001 is started.
+16:46:38 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+16:56:40 Clear expired cache end.

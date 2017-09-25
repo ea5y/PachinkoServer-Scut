@@ -1,0 +1,56 @@
+17:00:46 Clear expired cache end.
+17:10:46 Clear expired cache end.
+17:20:46 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+17:31:01 Server is starting...
+17:31:22 Server failed to start error:could not connect to redis Instance at 127.0.0.1:6379
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+17:32:18 Server is starting...
+17:32:39 Server failed to start error:could not connect to redis Instance at 127.0.0.1:6379
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+17:33:02 Server is starting...
+17:33:23 Server failed to start error:could not connect to redis Instance at 127.0.0.1:6379
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+17:46:34 Server is starting...
+17:46:43 Redis server connect successfully.
+17:46:49 DB server connect successfully.
+17:47:07 Start checking table schema, please wait.
+17:47:07 Check table schema successfully.
+17:47:07 script compiled successfully.
+17:47:08 CacheFactory listen has started...
+17:47:08 Socket service 192.168.1.209:9001 is started.
+17:47:09 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+17:57:20 Clear expired cache end.

@@ -1,0 +1,46 @@
+20:07:23 Clear expired cache end.
+20:17:24 Clear expired cache end.
+20:27:24 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:32:57 Server is starting...
+20:33:02 Redis server connect successfully.
+20:33:03 DB server connect successfully.
+Update script file count:0.
+20:33:07 Start checking table schema, please wait.
+20:33:07 Check table schema successfully.
+20:33:07 script compiled successfully.
+20:33:07 CacheFactory listen has started...
+20:33:07 Socket service 192.168.1.209:9001 is started.
+20:33:07 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+20:37:24 Clear expired cache end.
+20:43:20 Clear expired cache end.
+20:47:25 Clear expired cache end.
+20:53:20 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:53:54 Server is starting...
+20:53:54 Redis server connect successfully.
+20:53:55 DB server connect successfully.
+20:53:57 Start checking table schema, please wait.
+20:53:57 Check table schema successfully.
+20:53:57 script compiled successfully.
+20:53:57 CacheFactory listen has started...
+20:53:57 Socket service 192.168.1.209:9001 is started.
+20:53:57 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

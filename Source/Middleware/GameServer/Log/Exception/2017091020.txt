@@ -1,0 +1,11 @@
+Time:2017-09-10 20:57:38:241-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:/home/easy/workspace/Projects/Servers/ScutServer/Source/Middleware/GameServer/Script/CsScript/Action/Action1002.cs, Line:122
+Message:The name `session' does not exist in the current context
+
+
+Time:2017-09-10 20:57:38:242-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+  at ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp () [0x000d1] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp () [0x0005e] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+  at ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged (System.Object state) [0x0025b] in <3602833adbfb4d2eb285a0f9c41c393e>:0 
+
+

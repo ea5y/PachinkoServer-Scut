@@ -1,0 +1,210 @@
+Time:2017-09-12 16:00:27:300-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:01:27:307-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:02:27:312-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:03:27:318-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:04:27:324-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:05:27:330-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:06:27:337-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:07:27:344-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:08:27:348-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:09:27:354-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:10:27:361-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:11:27:366-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:12:27:373-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:13:27:378-Trace>>Socket connect status: TotalCount=9, CurrentCount=2, CloseCount=7, RejectedCount=0
+
+
+Time:2017-09-12 16:19:46:516-Redis write queue start init...
+
+
+Time:2017-09-12 16:19:46:517-Sql wait write queue start init...
+
+
+Time:2017-09-12 16:19:46:518-Sql write queue start init...
+
+
+Time:2017-09-12 16:19:46:964-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:20:46:965-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:21:46:971-Trace>>Socket connect status: TotalCount=3, CurrentCount=2, CloseCount=1, RejectedCount=0
+
+
+Time:2017-09-12 16:22:46:976-Trace>>Socket connect status: TotalCount=3, CurrentCount=2, CloseCount=1, RejectedCount=0
+
+
+Time:2017-09-12 16:23:46:983-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:24:46:988-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:25:46:993-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:26:47:000-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:27:47:006-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:28:47:011-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:29:40:326-Redis write queue start init...
+
+
+Time:2017-09-12 16:29:40:328-Sql wait write queue start init...
+
+
+Time:2017-09-12 16:29:40:329-Sql write queue start init...
+
+
+Time:2017-09-12 16:29:40:831-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:30:40:832-Trace>>Socket connect status: TotalCount=2, CurrentCount=1, CloseCount=1, RejectedCount=0
+
+
+Time:2017-09-12 16:31:40:838-Trace>>Socket connect status: TotalCount=3, CurrentCount=1, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:32:40:844-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:33:38:563-Redis write queue start init...
+
+
+Time:2017-09-12 16:33:38:564-Sql wait write queue start init...
+
+
+Time:2017-09-12 16:33:38:565-Sql write queue start init...
+
+
+Time:2017-09-12 16:33:39:077-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:34:39:077-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:35:39:083-Trace>>Socket connect status: TotalCount=3, CurrentCount=2, CloseCount=1, RejectedCount=0
+
+
+Time:2017-09-12 16:36:39:089-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:37:39:095-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:38:39:101-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:39:39:107-Trace>>Socket connect status: TotalCount=4, CurrentCount=2, CloseCount=2, RejectedCount=0
+
+
+Time:2017-09-12 16:40:39:112-Trace>>Socket connect status: TotalCount=4, CurrentCount=0, CloseCount=4, RejectedCount=0
+
+
+Time:2017-09-12 16:41:41:634-Redis write queue start init...
+
+
+Time:2017-09-12 16:41:41:636-Sql wait write queue start init...
+
+
+Time:2017-09-12 16:41:41:637-Sql write queue start init...
+
+
+Time:2017-09-12 16:41:42:146-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:42:42:150-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:43:42:157-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:44:42:163-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:45:42:169-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:46:42:175-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:47:42:180-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:48:42:187-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:49:42:193-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:50:42:199-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:51:42:204-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:52:42:210-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:53:42:216-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:54:42:223-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:55:42:228-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:56:42:234-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:57:42:240-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:58:42:247-Trace>>Socket connect status: TotalCount=2, CurrentCount=2, CloseCount=0, RejectedCount=0
+
+
+Time:2017-09-12 16:59:35:756-Redis write queue start init...
+
+
+Time:2017-09-12 16:59:35:758-Sql wait write queue start init...
+
+
+Time:2017-09-12 16:59:35:759-Sql write queue start init...
+
+
+Time:2017-09-12 16:59:35:827-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+

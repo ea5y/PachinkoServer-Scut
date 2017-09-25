@@ -1,0 +1,61 @@
+Time:2017-08-24 12:13:38:563-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 12:13:38:575-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:13:38:585-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:13:38:636-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:13:38:639-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:13:38:641-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:14:03:694-Trace>>Action1002 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action1002.TakeAction() 位置 e:\project\Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:行号 53
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=1&ActionId=1002&data={"Username":"easy3","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:62153
+
+
+Time:2017-08-24 12:15:55:379-Trace>>The ScutGameServer.Model.GameUser entity's attr cacheType is share.
+
+
+Time:2017-08-24 12:15:55:396-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:15:55:408-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:15:55:459-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:15:55:463-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:15:55:465-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:16:37:355-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:16:37:358-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:16:37:360-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:17:44:192-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:17:44:199-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+
+Time:2017-08-24 12:17:44:201-Trace>>The ScutGameServer.Model.GameUser property "PersonalId" is empty.
+
+

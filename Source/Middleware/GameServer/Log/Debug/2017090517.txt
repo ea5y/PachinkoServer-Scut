@@ -1,0 +1,8 @@
+Time:2017-09-05 17:00:18:000-Trace>>Process action-1002 Uid:1 access timeout 3795.482/500ms.
+Url:Url:MsgId=1&ActionId=1002&data={"Username":"easy9","Password":"443322"}, Uid:0, Pid:
+Host:127.0.0.1:65298
+
+
+Time:2017-09-05 17:00:40:150-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+

@@ -1,0 +1,96 @@
+17:06:40 Clear expired cache end.
+Update script file count:1.
+17:14:18 csharp script compile start...
+17:14:19 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+17:14:30 Server is starting...
+17:14:30 Redis server connect successfully.
+17:14:30 DB server connect successfully.
+17:14:32 Start checking table schema, please wait.
+17:14:32 Check table schema successfully.
+17:14:32 script compiled successfully.
+17:14:32 CacheFactory listen has started...
+17:14:32 Socket service 192.168.1.209:9001 is started.
+17:14:32 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+17:24:40 Clear expired cache end.
+17:34:40 Clear expired cache end.
+Update script file count:1.
+17:35:58 model script compile start...
+Time:2017-09-15 17:35:59:418-Wait for the update before Model script...
+
+
+Time:2017-09-15 17:35:59:611-Update before Model script OK.
+
+
+17:36:02 Start checking table schema, please wait.
+17:36:02 Check table schema successfully.
+Time:2017-09-15 17:36:02:298-Update Model script success.
+
+
+17:36:02 script compiled successfully.
+17:36:02 model script compiled successfully, the assemblyName:rqygdxsq, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null.
+Update script file count:2.
+17:36:34 model script compile start...
+Time:2017-09-15 17:36:35:340-Wait for the update before Model script...
+
+
+Time:2017-09-15 17:36:35:341-Update before Model script OK.
+
+
+Update script file count:1.
+17:37:32 csharp script compile start...
+17:37:32 csharp script compiled successfully.
+Update script file count:1.
+17:38:14 csharp script compile start...
+17:38:15 csharp script compiled successfully.
+Update script file count:1.
+17:38:41 csharp script compile start...
+Update script file count:1.
+17:40:05 csharp script compile start...
+Update script file count:1.
+17:40:24 csharp script compile start...
+Update script file count:1.
+17:40:28 csharp script compile start...
+Update script file count:1.
+17:40:55 csharp script compile start...
+Update script file count:1.
+17:41:25 csharp script compile start...
+17:41:25 csharp script compiled successfully.
+Update script file count:1.
+17:42:17 csharp script compile start...
+17:42:17 csharp script compiled successfully.
+Update script file count:1.
+17:43:07 csharp script compile start...
+17:43:08 csharp script compiled successfully.
+Update script file count:1.
+17:44:30 csharp script compile start...
+17:44:30 csharp script compiled successfully.
+17:44:41 Clear expired cache end.
+Update script file count:1.
+17:44:41 model script compile start...
+Time:2017-09-15 17:44:42:488-Wait for the update before Model script...
+
+
+Time:2017-09-15 17:44:42:489-Update before Model script OK.
+
+
+Update script file count:1.
+17:44:55 model script compile start...
+Time:2017-09-15 17:44:56:532-Wait for the update before Model script...
+
+
+Time:2017-09-15 17:44:56:533-Update before Model script OK.
+
+
+Update script file count:1.
+17:46:03 csharp script compile start...
+17:46:04 csharp script compiled successfully.

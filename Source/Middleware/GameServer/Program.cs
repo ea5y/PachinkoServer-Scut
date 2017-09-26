@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
 
+using GameServer.Script.CsScript;
 using System;
 using ZyGames.Framework.Game.Runtime;
 
@@ -31,8 +32,17 @@ namespace GameServer
     {
         static void Main(string[] args)
         {
-            new ConsoleRuntimeHost().Start();
+            //new ConsoleRuntimeHost().Start();
+            new ConsoleRuntimeHost().Start(() => {
+                Extend();
+            });
             Console.WriteLine("exited.");
+
+        }
+
+        private static void Extend()
+        {
+            PachinkoManager.Inst.Init();
         }
     }
 }

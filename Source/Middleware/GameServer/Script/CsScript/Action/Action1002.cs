@@ -12,7 +12,8 @@ using ZyGames.Framework.Net;
 using ZyGames.Framework.RPC.Sockets;
 using GameServer.CsScript.CommunicationDataStruct;
 
-namespace GameServer.CsScript.Action
+//namespace GameServer.CsScript.Action
+namespace Game.Script.CsScript.Action
 {
     public class Action1002 : BaseStruct
     {
@@ -28,7 +29,6 @@ namespace GameServer.CsScript.Action
         {
             //Current = GameSession.CreateNew(Guid.NewGuid());
             //Current.SetExpired();
-
 			//Test();
             User user;
             ShareCacheStruct<User> userCache;

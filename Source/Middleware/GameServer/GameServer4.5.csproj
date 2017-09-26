@@ -37,6 +37,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LitJson">
+      <HintPath>.\LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Dynamic, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Framework\Lib\Microsoft.Dynamic.dll</HintPath>
@@ -84,8 +87,12 @@
     <Compile Include="Script\CsScript\Cast\CastID.cs" />
     <Compile Include="Script\CsScript\Cast\DispatchCast.cs" />
     <Compile Include="Script\CsScript\CommunicationDataStruct.cs" />
+    <Compile Include="Script\CsScript\Config\PachinkoConfig.cs" />
     <Compile Include="Script\CsScript\Http\HttpClient.cs" />
     <Compile Include="Script\CsScript\Http\HttpReq.cs" />
+    <Compile Include="Script\CsScript\PachinkoManager.cs" />
+    <Compile Include="Script\CsScript\Tools\IOHelper.cs" />
+    <Compile Include="Script\Model\PachinkoData.cs" />
     <Compile Include="Script\Model\User.cs" />
     <Compile Include="Script\Model\UserData.cs" />
     <None Include="GameServer.exe.config" />

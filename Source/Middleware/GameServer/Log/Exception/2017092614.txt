@@ -1,0 +1,181 @@
+Time:2017-09-26 14:19:20:822-Trace>>Script init error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 93
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 79
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:19:20:853-Trace>>OnInit error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:20:47:549-Trace>>Script init error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 93
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 79
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:20:47:579-Trace>>OnInit error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:23:19:206-Trace>>Script init error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:23:19:234-Trace>>OnInit error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:24:08:914-Trace>>Script init error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.get_Container() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 170
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:24:08:949-Trace>>OnInit error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:25:03:947-Trace>>Script init error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.get_Container() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 170
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:25:03:983-Trace>>OnInit error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:26:54:554-Trace>>Script init error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.get_Container() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 170
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:32:41:063-Trace>>Script init error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.get_Container() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 170
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:32:41:108-Trace>>OnInit error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 14:33:56:704-Trace>>Script init error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.get_Container() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 170
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 94
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 80
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 39
+   在 Game.Script.MainClass..ctor() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 486
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 113
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 194
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 14:33:56:726-Trace>>OnInit error:System.Exception: CacheContainer "GameServer.Script.Model.PachinkoData" is not created.
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+

@@ -1,0 +1,38 @@
+Time:2017-09-26 13:37:08:600-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Tools\IOHelper.cs, Line:3
+Message:未能找到类型或命名空间名称“LitJson”(是否缺少 using 指令或程序集引用?)
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:81
+Message:“GameServer.Script.Model.PachinkoData”不可访问，因为它受保护级别限制
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:81
+Message:“GameServer.Script.Model.PachinkoData”不可访问，因为它受保护级别限制
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:81
+Message:可访问性不一致: 参数类型“out GameServer.Script.Model.PachinkoData”比方法“GameServer.Script.CsScript.PachinkoManager.FindPachinko(out GameServer.Script.Model.PachinkoData, out ZyGames.Framework.Cache.Generic.ShareCacheStruct<GameServer.Script.Model.PachinkoData>, int)”的可访问性低
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:81
+Message:可访问性不一致: 参数类型“out ZyGames.Framework.Cache.Generic.ShareCacheStruct<GameServer.Script.Model.PachinkoData>”比方法“GameServer.Script.CsScript.PachinkoManager.FindPachinko(out GameServer.Script.Model.PachinkoData, out ZyGames.Framework.Cache.Generic.ShareCacheStruct<GameServer.Script.Model.PachinkoData>, int)”的可访问性低
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:92
+Message:“GameServer.Script.Model.PachinkoData”不可访问，因为它受保护级别限制
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:92
+Message:可访问性不一致: 参数类型“ZyGames.Framework.Cache.Generic.ShareCacheStruct<GameServer.Script.Model.PachinkoData>”比方法“GameServer.Script.CsScript.PachinkoManager.CreatePchinko(ZyGames.Framework.Cache.Generic.ShareCacheStruct<GameServer.Script.Model.PachinkoData>, int)”的可访问性低
+
+
+Time:2017-09-26 13:37:08:739-Trace>>Script init error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Compile() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 325
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Load() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 317
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Init() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 85
+   在 ZyGames.Framework.Script.ScriptRuntimeScope.Init() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeScope.cs:行号 254
+   在 ZyGames.Framework.Script.ScriptRuntimeDomain.CreateScope(ScriptSettupInfo settupInfo) 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeDomain.cs:行号 122
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 178
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 104.
+
+
+Time:2017-09-26 13:37:08:806-Trace>>OnInit error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize() 位置 E:\project\Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 114
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 218
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting) 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\GameEnvironment.cs:行号 162
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart() 位置 E:\project\ScutServer\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 96
+
+
+Time:2017-09-26 13:49:34:546-Trace>>Not found DB connection key "PayCenter" of the SensitiveWord entity.
+
+

@@ -61,6 +61,29 @@ namespace ZyGames.Framework.Game.Runtime
                 return;
             }
             Run();
+
+            if (!IsStoped)
+            {
+                OnStop();
+            }
+        }
+
+        public void Start(Action funcExtend)
+        {
+            ConsoleColor currentForeColor = Console.ForegroundColor;
+            SetColor(ConsoleColor.DarkYellow);
+            OnInit();
+            SetColor(currentForeColor);
+            if (!OnStart())
+            {
+                RunWait().Wait();
+                return;
+            }
+
+            funcExtend();
+
+            Run();
+
             if (!IsStoped)
             {
                 OnStop();

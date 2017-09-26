@@ -1,4 +1,5 @@
 ﻿using GameServer.CsScript.CommunicationDataStruct;
+using GameServer.Script.CsScript;
 using GameServer.Script.CsScript.Cast;
 using Newtonsoft.Json;
 using System;
@@ -8,34 +9,27 @@ using System.Text;
 using System.Threading.Tasks;
 using ZyGames.Framework.Game.Service;
 
-namespace GameServer.CsScript.Action
+namespace Game.Script.CsScript.Action
 {
     public class Action1005 : BaseStruct
     {
-        //StateData _stateData;
+        private GetPachinkosRes _res;
         public Action1005(ActionGetter actionGetter) : base(ActionID.GetPachinkos, actionGetter)
         {
         }
 
-        public override bool GetUrlElement()
+        public override bool TakeAction()
         {
-            /*
-            string str = string.Empty;
-            if(httpGet.GetString("data", ref str))
-            {
-                _stateData = JsonConvert.DeserializeObject<StateData>(str);
-            }
-            */
+            var set = PachinkoManager.Inst.GetPachinkoDataSet();
+            _res = new GetPachinkosRes();
+            _res.PachinkoDataSet = set;
+
             return true;
         }
 
-        public override bool TakeAction()
+        public override void BuildPacket()
         {
-            /*
-            var syncData = new SyncStateData() { UserId = Current.UserId, State = _stateData.State };
-            DispatchCast.Send(new CastSyncPlayerState(Current, syncData));
-            */
-            return true;
+             PushIntoStack(JsonConvert.SerializeObject(_res));
         }
     }
 }

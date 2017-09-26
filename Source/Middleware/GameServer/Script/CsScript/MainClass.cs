@@ -29,6 +29,7 @@ using ZyGames.Framework.RPC.Sockets;
 using ZyGames.Framework.Script;
 using GameServer.CsScript;
 using GameServer.Script.CsScript.Cast;
+using GameServer.Script.CsScript;
 
 namespace Game.Script
 {

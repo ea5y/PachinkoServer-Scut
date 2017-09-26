@@ -22,6 +22,10 @@ namespace GameServer.CsScript.CommunicationDataStruct
         public UserData UserData;
     }
 
+    public class GetPachinkosRes
+    {
+        public PachinkoDataSet PachinkoDataSet;
+    }
 
     //========================Cast=============================
     [ProtoContract]
@@ -126,5 +130,43 @@ namespace GameServer.CsScript.CommunicationDataStruct
     public class InputRes : BaseRes
     {
         public byte[] InputData;
+    }
+
+    //===================Pachinko====================
+    public enum PachinkoStateType
+    {
+        Unoccupied,
+        Occupied,
+        Owned,
+        Maintain,
+        Reset,
+        LostConnection
+    }
+
+    public class SyncPachinkoStateData
+    {
+        public int Id;
+        public PachinkoStateType StateType;
+    }
+
+    public class SyncPachinkoStateDataSet
+    {
+        public List<SyncPachinkoStateData> SyncPachinkoStateDataList = new List<SyncPachinkoStateData>();
+    }
+
+    public class PachinkoData
+    {
+        public int Id;
+
+        public PachinkoStateType StateType;
+        public int Times;
+        public int Sum;
+        public int PbChange;
+        public int Award;
+    }
+
+    public class PachinkoDataSet
+    {
+        public List<PachinkoData> PachinkoDataSetList = new List<PachinkoData>();
     }
 }

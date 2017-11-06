@@ -106,7 +106,7 @@ namespace GameServer.Script.CsScript.Http
             }
         }
 
-        private static Queue<Action> _queue = new Queue<Action>();
+        private static Queue<System.Action> _queue = new Queue<System.Action>();
         private void Update()
         {
             //Since in console, so i should create a new thread to recieve the res
@@ -115,13 +115,13 @@ namespace GameServer.Script.CsScript.Http
                 if (_queue.Count > 0)
                 {
                     //var msg = "InvokeAsync...";
-                    Action action = _queue.Dequeue();
+                    System.Action action = _queue.Dequeue();
                     action();
                 }
             }
         }
 
-        private static void InvokeAsync(Action action)
+        private static void InvokeAsync(System.Action action)
         {
             _queue.Enqueue(action);
         }

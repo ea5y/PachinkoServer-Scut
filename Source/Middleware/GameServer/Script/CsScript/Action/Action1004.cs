@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using ZyGames.Framework.Game.Service;
 
 //namespace GameServer.CsScript.Action
-namespace Game.Script.CsScript.Action
+namespace GameServer.Script.CsScript.Action
 {
     public class Action1004 : BaseStruct
     {

@@ -13,7 +13,7 @@ using ZyGames.Framework.RPC.Sockets;
 using GameServer.CsScript.CommunicationDataStruct;
 
 //namespace GameServer.CsScript.Action
-namespace Game.Script.CsScript.Action
+namespace GameServer.Script.CsScript.Action
 {
     public class Action1002 : BaseStruct
     {
@@ -102,6 +102,8 @@ namespace Game.Script.CsScript.Action
 
         public override void BuildPacket()
         {
+            PushIntoStack("response");
+            PushIntoStack("origin");
             PushIntoStack(JsonConvert.SerializeObject(_loginDataRes));
         }
 

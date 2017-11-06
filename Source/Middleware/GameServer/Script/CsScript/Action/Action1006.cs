@@ -8,8 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ZyGames.Framework.Game.Service;
 
-namespace Game.Script.CsScript.Action
-//namespace GameServer.CsScript.Action
+namespace GameServer.Script.CsScript.Action
 {
     public class Action1006 : BaseStruct
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //namespace GameServer.CsScript.Action
-namespace Game.Script.CsScript.Action
+namespace GameServer.Script.CsScript.Action
 {
     public class ActionID
     {

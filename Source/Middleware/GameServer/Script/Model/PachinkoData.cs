@@ -28,5 +28,18 @@ namespace GameServer.Script.Model
         [ProtoMember(5)]
         [EntityField]
         public int Award { get; set; }
+        [ProtoMember(6)]
+        [EntityField]
+        public PachinkoStateType StateType { get; set; }
+    }
+
+    public enum PachinkoStateType
+    {
+        Unoccupied,
+        Occupied,
+        Owned,
+        Maintain,
+        Reset,
+        LostConnection
     }
 }

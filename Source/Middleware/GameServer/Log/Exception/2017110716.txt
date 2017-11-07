@@ -1,0 +1,18 @@
+Time:2017-11-07 16:08:56:919-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“wre4t13t, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\wre4t13t.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+

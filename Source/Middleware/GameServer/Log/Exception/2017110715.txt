@@ -1,0 +1,554 @@
+Time:2017-11-07 15:22:23:378-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“s5dtpvaz, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\s5dtpvaz.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:23:45:415-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“miea4m0x, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\miea4m0x.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:26:34:241-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“kh4v2hmo, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\kh4v2hmo.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:28:22:574-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“fywafzar, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\fywafzar.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:30:07:248-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“bckrqhpg, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\bckrqhpg.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:31:48:386-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“ifxgvpwr, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\ifxgvpwr.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:34:07:663-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“g0jzjt1b, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\g0jzjt1b.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:38:43:470-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: Unable to Connect: sPort: 57425 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Send(IList`1 buffers, SocketFlags socketFlags)
+   在 ServiceStack.Redis.RedisNativeClient.FlushSendBuffer()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.CreateConnectionError()
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:43:471-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: Unable to Connect: sPort: 57650 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Send(IList`1 buffers, SocketFlags socketFlags)
+   在 ServiceStack.Redis.RedisNativeClient.FlushSendBuffer()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.CreateConnectionError()
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:43:472-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: Unable to Connect: sPort: 57431 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Send(IList`1 buffers, SocketFlags socketFlags)
+   在 ServiceStack.Redis.RedisNativeClient.FlushSendBuffer()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.CreateConnectionError()
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:44:578-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:44:578-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:44:640-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:45:639-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:45:654-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:45:730-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:46:706-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:46:833-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:46:853-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:47:806-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:47:914-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:47:922-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:48:909-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:49:002-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:49:010-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:49:990-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:50:102-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:50:116-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:51:087-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:51:203-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:51:219-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:38:52:195-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:52:318-Trace>>OnCheckRedisSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.<>c__DisplayClass46_0.<OnCheckRedisSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 528
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Cache.Generic.DataSyncQueueManager.OnCheckRedisSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\DataSyncQueueManager.cs:行号 526
+
+
+Time:2017-11-07 15:38:52:318-Trace>>OnCheckSqlSyncQueue error:ServiceStack.Redis.RedisException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectLong(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.ContainsKey(String key)
+   在 ZyGames.Framework.Data.SqlStatementManager.<>c__DisplayClass17_0.<OnCheckSqlSyncQueue>b__0(RedisClient client) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 245
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessReadOnly(Action`1 func, RedisPoolSetting setting) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 512
+   在 ZyGames.Framework.Data.SqlStatementManager.OnCheckSqlSyncQueue(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 243
+
+
+Time:2017-11-07 15:49:58:475-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs, Line:45
+Message:当前上下文中不存在名称“PachinkoManager”
+
+
+Time:2017-11-07 15:49:58:493-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-11-07 15:50:36:724-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“bmcq4nvl, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\bmcq4nvl.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+
+Time:2017-11-07 15:58:06:242-Trace>>RunMain error:System.InvalidCastException: [A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“sydtk2pj, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\sydtk2pj.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.<>c__DisplayClass30_0.<ForeachEntity>b__0(String key, CacheItemSet itemSet) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 292
+   在 ZyGames.Framework.Cache.Generic.CacheCollection.Foreach[T](Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheCollection.cs:行号 318
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:行号 290
+   在 ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.ForeachEntity(Func`3 func) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:行号 219
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Find(Predicate`1 match) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:行号 442
+   在 GameServer.Script.CsScript.PachinkoManager.FindPachinko(PachinkoData& pachinko, ShareCacheStruct`1& pachinkoCache, Int32 id) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 100
+   在 GameServer.Script.CsScript.PachinkoManager.CheckPachinkoInCache() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 86
+   在 GameServer.Script.CsScript.PachinkoManager.Init() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 45
+   在 Game.Script.MainClass.OnStartAffer() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:行号 45
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.ReStart() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 115
+   在 ZyGames.Framework.Game.Contract.GameBaseHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:行号 51
+   在 ZyGames.Framework.Game.Contract.GameSocketHost.Start(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:行号 503
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 453
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.<RunAsync>d__12.MoveNext() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:行号 190
+
+

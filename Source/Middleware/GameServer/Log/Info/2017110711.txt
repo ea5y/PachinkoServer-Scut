@@ -1,0 +1,52 @@
+11:03:42 Clear expired cache end.
+Update script file count:1.
+11:09:43 csharp script compile start...
+11:09:43 csharp script compiled successfully.
+Update script file count:1.
+11:09:46 csharp script compile start...
+11:09:46 csharp script compiled successfully.
+Update script file count:1.
+11:10:38 csharp script compile start...
+11:10:39 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:12:10 Server is starting...
+11:12:11 Redis server connect successfully.
+11:12:11 DB server connect successfully.
+11:12:12 Start checking table schema, please wait.
+11:12:12 Check table schema successfully.
+11:12:12 script compiled successfully.
+11:12:12 CacheFactory listen has started...
+11:12:12 Socket service 192.168.1.181:9001 is started.
+11:12:12 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+11:22:20 Clear expired cache end.
+11:32:20 Clear expired cache end.
+11:42:20 Clear expired cache end.
+Update script file count:0.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:45:14 Server is starting...
+11:45:15 Redis server connect successfully.
+11:45:15 DB server connect successfully.
+11:45:17 Start checking table schema, please wait.
+11:45:17 Check table schema successfully.
+11:45:17 script compiled successfully.
+11:45:17 CacheFactory listen has started...
+11:45:31 Socket service 192.168.1.181:9001 is started.
+11:45:31 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

@@ -1,0 +1,274 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:22:11 Server is starting...
+15:22:12 Redis server connect successfully.
+15:22:12 DB server connect successfully.
+15:22:13 Start checking table schema, please wait.
+15:22:13 Check table schema successfully.
+15:22:13 script compiled successfully.
+15:22:13 CacheFactory listen has started...
+15:22:15 Socket service 192.168.1.181:9001 is started.
+15:22:23 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“s5dtpvaz, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\s5dtpvaz.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:23:35 Server is starting...
+15:23:36 Redis server connect successfully.
+15:23:36 DB server connect successfully.
+15:23:37 Start checking table schema, please wait.
+15:23:37 Check table schema successfully.
+15:23:37 script compiled successfully.
+15:23:38 CacheFactory listen has started...
+15:23:39 Socket service 192.168.1.181:9001 is started.
+15:23:45 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“miea4m0x, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\miea4m0x.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:26:22 Server is starting...
+15:26:22 Redis server connect successfully.
+15:26:22 DB server connect successfully.
+15:26:24 Start checking table schema, please wait.
+15:26:24 Check table schema successfully.
+15:26:24 script compiled successfully.
+15:26:24 CacheFactory listen has started...
+15:26:25 Socket service 192.168.1.181:9001 is started.
+15:26:34 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“kh4v2hmo, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\kh4v2hmo.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:28:13 Server is starting...
+15:28:14 Redis server connect successfully.
+15:28:14 DB server connect successfully.
+15:28:15 Start checking table schema, please wait.
+15:28:15 Check table schema successfully.
+15:28:15 script compiled successfully.
+15:28:15 CacheFactory listen has started...
+15:28:17 Socket service 192.168.1.181:9001 is started.
+15:28:22 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“fywafzar, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\fywafzar.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:29:58 Server is starting...
+15:29:58 Redis server connect successfully.
+15:29:58 DB server connect successfully.
+15:30:00 Start checking table schema, please wait.
+15:30:00 Check table schema successfully.
+15:30:00 script compiled successfully.
+15:30:00 CacheFactory listen has started...
+15:30:01 Socket service 192.168.1.181:9001 is started.
+15:30:07 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“bckrqhpg, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\bckrqhpg.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:31:38 Server is starting...
+15:31:38 Redis server connect successfully.
+15:31:38 DB server connect successfully.
+15:31:40 Start checking table schema, please wait.
+15:31:40 Check table schema successfully.
+15:31:40 script compiled successfully.
+15:31:40 CacheFactory listen has started...
+15:31:41 Socket service 192.168.1.181:9001 is started.
+15:31:48 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“ifxgvpwr, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\ifxgvpwr.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:33:53 Server is starting...
+15:33:54 Redis server connect successfully.
+15:33:54 DB server connect successfully.
+15:33:55 Start checking table schema, please wait.
+15:33:55 Check table schema successfully.
+15:33:55 script compiled successfully.
+15:33:55 CacheFactory listen has started...
+15:33:57 Socket service 192.168.1.181:9001 is started.
+15:34:07 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“g0jzjt1b, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\g0jzjt1b.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:40:52 Server is starting...
+15:40:52 Redis server connect successfully.
+15:40:53 DB server connect successfully.
+15:40:54 Start checking table schema, please wait.
+15:40:54 Check table schema successfully.
+15:40:54 script compiled successfully.
+15:40:54 CacheFactory listen has started...
+15:40:55 Socket service 192.168.1.181:9001 is started.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:44:04 Server is starting...
+15:44:04 Redis server connect successfully.
+15:44:04 DB server connect successfully.
+15:44:06 Start checking table schema, please wait.
+15:44:06 Check table schema successfully.
+15:44:06 script compiled successfully.
+15:44:06 CacheFactory listen has started...
+15:44:07 Socket service 192.168.1.181:9001 is started.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:49:04 Server is starting...
+15:49:05 Redis server connect successfully.
+15:49:05 DB server connect successfully.
+15:49:06 Start checking table schema, please wait.
+15:49:06 Check table schema successfully.
+15:49:06 script compiled successfully.
+15:49:06 CacheFactory listen has started...
+Error>>Main script instance is not init.
+15:49:10 Server failed to start!
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+15:49:58 csharp script compile start...
+Update script file count:1.
+15:50:07 csharp script compile start...
+15:50:07 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:50:17 Server is starting...
+15:50:17 Redis server connect successfully.
+15:50:17 DB server connect successfully.
+15:50:19 Start checking table schema, please wait.
+15:50:19 Check table schema successfully.
+15:50:19 script compiled successfully.
+15:50:19 CacheFactory listen has started...
+15:50:26 Socket service 192.168.1.181:9001 is started.
+15:50:36 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“bmcq4nvl, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\bmcq4nvl.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:54:36 Server is starting...
+15:54:36 Redis server connect successfully.
+15:54:36 DB server connect successfully.
+15:54:38 Start checking table schema, please wait.
+15:54:38 Check table schema successfully.
+15:54:38 script compiled successfully.
+15:54:38 CacheFactory listen has started...
+15:54:39 Socket service 192.168.1.181:9001 is started.
+15:54:39 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:55:55 Server is starting...
+15:55:55 Redis server connect successfully.
+15:55:55 DB server connect successfully.
+15:55:57 Start checking table schema, please wait.
+15:55:57 Check table schema successfully.
+15:55:57 script compiled successfully.
+15:55:57 CacheFactory listen has started...
+15:55:58 Socket service 192.168.1.181:9001 is started.
+15:55:58 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:56:44 Server is starting...
+15:56:45 Redis server connect successfully.
+15:56:45 DB server connect successfully.
+15:56:46 Start checking table schema, please wait.
+15:56:46 Check table schema successfully.
+15:56:46 script compiled successfully.
+15:56:46 CacheFactory listen has started...
+15:56:51 Socket service 192.168.1.181:9001 is started.
+15:56:51 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+15:57:22 Server is starting...
+15:57:22 Redis server connect successfully.
+15:57:23 DB server connect successfully.
+15:57:24 Start checking table schema, please wait.
+15:57:24 Check table schema successfully.
+15:57:24 script compiled successfully.
+15:57:24 CacheFactory listen has started...
+15:57:27 Socket service 192.168.1.181:9001 is started.
+15:58:06 Server failed to start error:[A]GameServer.Script.Model.PachinkoData 无法强制转换为 [B]GameServer.Script.Model.PachinkoData。类型 A 源自“GameServer, Version=6.7.9.11, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\GameServer.exe”位置处)。类型 B 源自“sydtk2pj, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\sydtk2pj.dll”位置处)。
+# Server exit command "Ctrl+C" or "Ctrl+Break".

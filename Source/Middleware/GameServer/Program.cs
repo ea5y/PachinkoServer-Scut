@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
 
-using GameServer.Script.CsScript;
 using System;
 using ZyGames.Framework.Game.Runtime;
+//using GameServer.Script.CsScript;
 
 namespace GameServer
 {
@@ -42,7 +42,7 @@ namespace GameServer
 
         private static void Extend()
         {
-            PachinkoManager.Inst.Init();
+            //PachinkoManager.Inst.Init();
         }
     }
 }

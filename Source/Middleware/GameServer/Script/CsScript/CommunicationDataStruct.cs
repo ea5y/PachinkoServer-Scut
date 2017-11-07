@@ -1,5 +1,5 @@
 ﻿using ProtoBuf;
-using ScutGameServer.Model;
+using GameServer.Script.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -133,6 +133,7 @@ namespace GameServer.CsScript.CommunicationDataStruct
     }
 
     //===================Pachinko====================
+    /*
     public enum PachinkoStateType
     {
         Unoccupied,
@@ -142,6 +143,7 @@ namespace GameServer.CsScript.CommunicationDataStruct
         Reset,
         LostConnection
     }
+    */
 
     public class SyncPachinkoStateData
     {
@@ -154,6 +156,7 @@ namespace GameServer.CsScript.CommunicationDataStruct
         public List<SyncPachinkoStateData> SyncPachinkoStateDataList = new List<SyncPachinkoStateData>();
     }
 
+    /*
     public class PachinkoData
     {
         public int Id;
@@ -164,6 +167,7 @@ namespace GameServer.CsScript.CommunicationDataStruct
         public int PbChange;
         public int Award;
     }
+    */
 
     public class PachinkoDataSet
     {

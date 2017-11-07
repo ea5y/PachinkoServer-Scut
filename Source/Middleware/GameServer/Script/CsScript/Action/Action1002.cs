@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using ZyGames.Framework.Cache.Generic;
 using ZyGames.Framework.Game.Contract;
-using ScutGameServer.Model;
+using GameServer.Script.Model;
 using Newtonsoft.Json;
 using ZyGames.Framework.Game.Service;
 using ZyGames.Framework.Net;
@@ -104,6 +101,7 @@ namespace GameServer.Script.CsScript.Action
         {
             PushIntoStack("response");
             PushIntoStack("origin");
+            //PushIntoStack("hotfix");
             PushIntoStack(JsonConvert.SerializeObject(_loginDataRes));
         }
 

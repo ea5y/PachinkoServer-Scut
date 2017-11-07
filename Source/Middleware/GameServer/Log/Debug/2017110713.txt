@@ -1,0 +1,54 @@
+Time:2017-11-07 13:31:45:395-Redis write queue start init...
+
+
+Time:2017-11-07 13:31:45:397-Sql wait write queue start init...
+
+
+Time:2017-11-07 13:31:45:398-Sql write queue start init...
+
+
+Time:2017-11-07 13:31:50:513-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-11-07 13:32:13:043-Trace>>Process action-1002 Uid:1 access timeout 7847/500ms.
+Url:Url:MsgId=2&ActionId=1002&Sid=&Uid=&Data={"Username":"Test","Password":"565656"}, Uid:1, Pid:
+Host:127.0.0.1:63741
+
+
+Time:2017-11-07 13:37:09:804-Redis write queue start init...
+
+
+Time:2017-11-07 13:37:09:806-Sql wait write queue start init...
+
+
+Time:2017-11-07 13:37:09:807-Sql write queue start init...
+
+
+Time:2017-11-07 13:38:11:048-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-11-07 13:38:36:787-Trace>>Process action-1002 Uid:1 access timeout 10989.5/500ms.
+Url:Url:MsgId=2&ActionId=1002&Sid=&Uid=&Data={"Username":"Test","Password":"565656"}, Uid:1, Pid:
+Host:127.0.0.1:64406
+
+
+Time:2017-11-07 13:46:46:878-Redis write queue start init...
+
+
+Time:2017-11-07 13:46:46:879-Sql wait write queue start init...
+
+
+Time:2017-11-07 13:46:46:880-Sql write queue start init...
+
+
+Time:2017-11-07 13:47:33:120-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-11-07 13:47:45:951-Trace>>User 1 sessionIds_35dd57bf9d794367b689adfb84c01ae8|0|0 is expire 2017/11/7 11:45:54(7200sec)
+
+
+Time:2017-11-07 13:48:09:634-Trace>>Process action-1002 Uid:1 access timeout 15937.5/500ms.
+Url:Url:MsgId=2&ActionId=1002&Sid=&Uid=&Data={"Username":"Test","Password":"565656"}, Uid:1, Pid:
+Host:127.0.0.1:65192
+
+

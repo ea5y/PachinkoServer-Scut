@@ -1,0 +1,3 @@
+16:00:10 Server is stopping, please wait.
+16:00:12 Server has stoped successfully!
+16:00:12 Server has canceled!

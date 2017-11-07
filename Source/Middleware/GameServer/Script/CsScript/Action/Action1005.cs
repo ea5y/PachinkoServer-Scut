@@ -29,7 +29,9 @@ namespace GameServer.Script.CsScript.Action
 
         public override void BuildPacket()
         {
-             PushIntoStack(JsonConvert.SerializeObject(_res));
+            PushIntoStack("response");
+            PushIntoStack("origin");
+            PushIntoStack(JsonConvert.SerializeObject(_res));
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using GameServer.CsScript.CommunicationDataStruct;
+using GameServer.Script.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,11 @@ namespace GameServer.Script.CsScript
                     _inst = new PachinkoManager();
                 return _inst;
             }
+        }
+
+        public PachinkoManager()
+        {
+
         }
 
         private PachinkoDataSet _pachinkoDataSet;
@@ -54,7 +60,7 @@ namespace GameServer.Script.CsScript
 
         private void InitPachinkoDataSet()
         {
-            var pachinkoCache = new ShareCacheStruct<Model.PachinkoData>();
+            var pachinkoCache = new ShareCacheStruct<PachinkoData>();
             var datas = pachinkoCache.FindAll();
             _pachinkoDataSet = new PachinkoDataSet();
             foreach(var data in datas)
@@ -75,8 +81,8 @@ namespace GameServer.Script.CsScript
         {
             foreach(var conf in _pachinkoConfigSet.PachinkoConfigList)
             {
-                Model.PachinkoData pachinko;
-                ShareCacheStruct<Model.PachinkoData> pachinkoCache;
+                PachinkoData pachinko;
+                ShareCacheStruct<PachinkoData> pachinkoCache;
                 if (!this.FindPachinko(out pachinko, out pachinkoCache, conf.Id))
                 {
                     //Create pachinko
@@ -85,19 +91,19 @@ namespace GameServer.Script.CsScript
             }
         }
 
-        private bool FindPachinko(out Model.PachinkoData pachinko, out ShareCacheStruct<Model.PachinkoData> pachinkoCache, int id)
+        private bool FindPachinko(out PachinkoData pachinko, out ShareCacheStruct<PachinkoData> pachinkoCache, int id)
         {
             pachinko = null;
             pachinkoCache = null;
 
-            pachinkoCache = new ShareCacheStruct<Model.PachinkoData>();
+            pachinkoCache = new ShareCacheStruct<PachinkoData>();
             pachinko = pachinkoCache.Find(p => p.Id == id);
             return pachinko != null;
         }
 
-        private void CreatePchinko(ShareCacheStruct<Model.PachinkoData> pachinkoCache, int id)
+        private void CreatePchinko(ShareCacheStruct<PachinkoData> pachinkoCache, int id)
         {
-            var pachinkoData = new Model.PachinkoData() { Id = id };
+            var pachinkoData = new PachinkoData() { Id = id };
             pachinkoCache.Add(pachinkoData);
         }
         #endregion

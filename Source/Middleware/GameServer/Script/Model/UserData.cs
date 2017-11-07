@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using ZyGames.Framework.Game.Context;
 using ZyGames.Framework.Model;
 
-namespace ScutGameServer.Model
+namespace GameServer.Script.Model
 {
     [Serializable, ProtoContract]
     [EntityTable(CacheType.Dictionary, "TestData")]

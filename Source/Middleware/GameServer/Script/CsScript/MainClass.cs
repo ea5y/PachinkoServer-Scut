@@ -27,11 +27,12 @@ using ZyGames.Framework.Game.Runtime;
 using ZyGames.Framework.Game.Service;
 using ZyGames.Framework.RPC.Sockets;
 using ZyGames.Framework.Script;
-using GameServer.CsScript;
+//using GameServer.CsScript;
 using GameServer.Script.CsScript.Cast;
 using GameServer.Script.CsScript;
 
 namespace Game.Script
+//namespace GameServer.Script.CsScript
 {
     public class MainClass : GameSocketHost, IMainScript
     {
@@ -41,7 +42,7 @@ namespace Game.Script
 
         protected override void OnStartAffer()
         {
-            ActionFactory.SetActionIgnoreAuthorize(100);
+            PachinkoManager.Inst.Init();
         }
 
         protected override void OnServiceStop()

@@ -84,12 +84,11 @@
     <Compile Include="Script\CsScript\Action\ActionID.cs" />
     <Compile Include="Script\CsScript\Cast\CastChangePachinkoData.cs" />
     <Compile Include="Script\CsScript\Cast\CastChangePachinkoInput.cs" />
+    <Compile Include="Script\CsScript\Cast\CastChangePachinkoState.cs" />
     <Compile Include="Script\CsScript\Cast\CastID.cs" />
     <Compile Include="Script\CsScript\Cast\DispatchCast.cs" />
-    <Compile Include="Script\CsScript\CommunicationDataStruct.cs" />
+    <Compile Include="Script\CsScript\ProtocStruct.cs" />
     <Compile Include="Script\CsScript\Config\PachinkoConfig.cs" />
-    <Compile Include="Script\CsScript\Http\HttpClient.cs" />
-    <Compile Include="Script\CsScript\Http\HttpReq.cs" />
     <Compile Include="Script\CsScript\PachinkoManager.cs" />
     <Compile Include="Script\CsScript\Tools\IOHelper.cs" />
     <Compile Include="Script\Model\PachinkoData.cs" />

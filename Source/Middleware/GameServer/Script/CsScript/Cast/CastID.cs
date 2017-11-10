@@ -8,7 +8,8 @@ namespace GameServer.Script.CsScript.Cast
 {
     public class CastID
     {
-        public const int ChangePachinkoData = 1001;
-        public const int ChangePachinkoInput = 1002;
+        public const int ChangePachinkoState = 1001;
+        public const int ChangePachinkoData = 1002;
+        public const int ChangePachinkoInput = 1003;
     }
 }

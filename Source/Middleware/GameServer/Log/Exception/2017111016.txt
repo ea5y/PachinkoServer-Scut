@@ -1,0 +1,44 @@
+Time:2017-11-10 16:20:07:479-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:201
+Message:当前上下文中不存在名称“str”
+
+
+Time:2017-11-10 16:20:07:516-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-11-10 16:40:01:093-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:221
+Message:“GameServer.Script.CsScript.PachinkoManager.CombineBytes(byte[])”: 并非所有的代码路径都返回值
+
+
+Time:2017-11-10 16:40:01:095-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-11-10 16:40:18:982-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs, Line:221
+Message:“GameServer.Script.CsScript.PachinkoManager.CombineBytes(byte[])”: 并非所有的代码路径都返回值
+
+
+Time:2017-11-10 16:40:18:984-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+
+Time:2017-11-10 16:41:33:235-Trace>>Action1003 error:System.InvalidCastException: 无法将类型为“System.Int32”的对象强制转换为类型“System.Char[]”。
+   在 GameServer.Script.CsScript.PachinkoManager.Pack(NetPackage package) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 204
+   在 GameServer.Script.CsScript.PachinkoManager.CastPachinkoState(GameSession session, ChangePachinkoStateDataCast dataCast) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 169
+   在 GameServer.Script.CsScript.Cast.CastChangePachinkoState.Send() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Cast\CastChangePachinkoState.cs:行号 28
+   在 GameServer.Script.CsScript.Cast.DispatchCast.Send(ICast cast) 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Cast\DispatchCast.cs:行号 18
+   在 GameServer.Script.CsScript.Action.Action1003.TakeAction() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1003.cs:行号 42
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=4&ActionId=1003&Sid=s_c18da66dbdba480d96349ef9e11f2ea8|0|0&Uid=&Data={"PachinkoId":5,"SwitchType":"on"}, Uid:1, Pid:
+Host:127.0.0.1:63994
+
+

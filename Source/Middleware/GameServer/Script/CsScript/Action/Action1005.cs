@@ -1,4 +1,4 @@
-﻿using GameServer.CsScript.CommunicationDataStruct;
+﻿using GameServer.CsScript.ProtocStruct;
 using GameServer.Script.CsScript;
 using GameServer.Script.CsScript.Cast;
 using Newtonsoft.Json;

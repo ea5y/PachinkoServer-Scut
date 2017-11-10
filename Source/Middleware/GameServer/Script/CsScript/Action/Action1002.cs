@@ -7,14 +7,14 @@ using Newtonsoft.Json;
 using ZyGames.Framework.Game.Service;
 using ZyGames.Framework.Net;
 using ZyGames.Framework.RPC.Sockets;
-using GameServer.CsScript.CommunicationDataStruct;
+using GameServer.CsScript.ProtocStruct;
 
 //namespace GameServer.CsScript.Action
 namespace GameServer.Script.CsScript.Action
 {
     public class Action1002 : BaseStruct
     {
-        private LoginData _loginData;
+        private LoginDataReq _loginData;
 
         private UserData _userData;
         private LoginDataRes _loginDataRes;
@@ -92,7 +92,7 @@ namespace GameServer.Script.CsScript.Action
             string str = string.Empty;
             if(httpGet.GetString("data", ref str))
             {
-                _loginData = JsonConvert.DeserializeObject<LoginData>(str);
+                _loginData = JsonConvert.DeserializeObject<LoginDataReq>(str);
             }
             return true;
         }

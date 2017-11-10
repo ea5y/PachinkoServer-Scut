@@ -1,0 +1,23 @@
+10:04:40 Clear expired cache end.
+Update script file count:1.
+10:11:13 model script compile start...
+Update script file count:1.
+10:11:38 model script compile start...
+Time:2017-11-09 10:11:39:399-Wait for the update before Model script...
+
+
+Time:2017-11-09 10:11:39:751-Update before Model script OK.
+
+
+10:11:41 Start checking table schema, please wait.
+10:11:42 Check table schema successfully.
+Time:2017-11-09 10:11:42:609-Update Model script success.
+
+
+10:11:42 script compiled successfully.
+10:11:42 model script compiled successfully, the assemblyName:veyqkdak, Version=1.0.0.5, Culture=neutral, PublicKeyToken=null.
+10:14:40 Clear expired cache end.
+10:24:41 Clear expired cache end.
+10:34:41 Clear expired cache end.
+10:44:41 Clear expired cache end.
+10:54:42 Clear expired cache end.

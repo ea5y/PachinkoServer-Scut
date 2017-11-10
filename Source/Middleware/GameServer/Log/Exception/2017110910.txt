@@ -1,0 +1,21 @@
+Time:2017-11-09 10:11:15:058-Compile assembly:DynamicScripts.Model error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\PachinkoData.cs, Line:35
+Message:应输入类型
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\PachinkoData.cs, Line:35
+Message:类、结构或接口成员声明中的标记“}”无效
+
+
+Time:2017-11-09 10:11:15:256-Trace>>DoWatcherChanged error:System.Exception: The model script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileModel() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 347
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Compile() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 324
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Load() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 317
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Init() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 85
+   在 ZyGames.Framework.Script.ScriptRuntimeScope.Init() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeScope.cs:行号 254
+   在 ZyGames.Framework.Script.ScriptRuntimeDomain.CreateScope(ScriptSettupInfo settupInfo) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptRuntimeDomain.cs:行号 122
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 178
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 301
+
+
+Time:2017-11-09 10:11:42:608-Trace>>Not found DB connection key "PayCenter" of the SensitiveWord entity.
+
+

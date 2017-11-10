@@ -1,0 +1,288 @@
+Time:2017-11-09 16:52:17:937-Trace>>Get redis "GameServer.Script.Model.PachinkoData" key:"GameServer.Script.Model.PachinkoData" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:52:18:029-Trace>>The data:GameServer.Script.Model.PachinkoData loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.PachinkoManager.Boolean FindPachinko(GameServer.Script.Model.PachinkoData ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.PachinkoData] ByRef, Int32) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 100
+   at GameServer.Script.CsScript.PachinkoManager.Void CheckPachinkoInCache() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 86
+   at GameServer.Script.CsScript.PachinkoManager.Void Init() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 45
+   at Game.Script.MainClass.Void OnStartAffer() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:line 45
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void ReStart() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 115
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 51
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 503
+   at System.Dynamic.UpdateDelegates.Void UpdateAndExecuteVoid2[T0,T1](System.Runtime.CompilerServices.CallSite, T0, T1)
+   at ZyGames.Framework.Script.ScriptEngines.Boolean RunMainProgram(System.String[]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:line 453
+   at ZyGames.Framework.Game.Runtime.RuntimeHost+<RunAsync>d__12.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 190
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.System.Threading.Tasks.Task RunAsync()
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.Void Run() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 137
+   at ZyGames.Framework.Game.Runtime.ConsoleRuntimeHost.Void Start(System.Action) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\ConsoleRuntimeHost.cs:line 85
+   at GameServer.Program.Void Main(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Program.cs:line 36
+
+
+
+Time:2017-11-09 16:52:18:161-Trace>>Get redis "GameServer.Script.Model.PachinkoData" key:"GameServer.Script.Model.PachinkoData" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:52:18:184-Trace>>The data:GameServer.Script.Model.PachinkoData loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.PachinkoManager.Boolean FindPachinko(GameServer.Script.Model.PachinkoData ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.PachinkoData] ByRef, Int32) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 100
+   at GameServer.Script.CsScript.PachinkoManager.Void CheckPachinkoInCache() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 86
+   at GameServer.Script.CsScript.PachinkoManager.Void Init() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 45
+   at Game.Script.MainClass.Void OnStartAffer() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:line 45
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void ReStart() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 115
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 51
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 503
+   at System.Dynamic.UpdateDelegates.Void UpdateAndExecuteVoid2[T0,T1](System.Runtime.CompilerServices.CallSite, T0, T1)
+   at ZyGames.Framework.Script.ScriptEngines.Boolean RunMainProgram(System.String[]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:line 453
+   at ZyGames.Framework.Game.Runtime.RuntimeHost+<RunAsync>d__12.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 190
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.System.Threading.Tasks.Task RunAsync()
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.Void Run() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 137
+   at ZyGames.Framework.Game.Runtime.ConsoleRuntimeHost.Void Start(System.Action) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\ConsoleRuntimeHost.cs:line 85
+   at GameServer.Program.Void Main(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Program.cs:line 36
+
+
+
+Time:2017-11-09 16:52:18:201-Trace>>Get redis "GameServer.Script.Model.PachinkoData" key:"GameServer.Script.Model.PachinkoData" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:52:18:214-Trace>>The data:GameServer.Script.Model.PachinkoData loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.PachinkoManager.Boolean FindPachinko(GameServer.Script.Model.PachinkoData ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.PachinkoData] ByRef, Int32) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 100
+   at GameServer.Script.CsScript.PachinkoManager.Void CheckPachinkoInCache() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 86
+   at GameServer.Script.CsScript.PachinkoManager.Void Init() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 45
+   at Game.Script.MainClass.Void OnStartAffer() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:line 45
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void ReStart() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 115
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 51
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 503
+   at System.Dynamic.UpdateDelegates.Void UpdateAndExecuteVoid2[T0,T1](System.Runtime.CompilerServices.CallSite, T0, T1)
+   at ZyGames.Framework.Script.ScriptEngines.Boolean RunMainProgram(System.String[]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:line 453
+   at ZyGames.Framework.Game.Runtime.RuntimeHost+<RunAsync>d__12.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 190
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.System.Threading.Tasks.Task RunAsync()
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.Void Run() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 137
+   at ZyGames.Framework.Game.Runtime.ConsoleRuntimeHost.Void Start(System.Action) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\ConsoleRuntimeHost.cs:line 85
+   at GameServer.Program.Void Main(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Program.cs:line 36
+
+
+
+Time:2017-11-09 16:52:18:219-Trace>>Get redis "GameServer.Script.Model.PachinkoData" key:"GameServer.Script.Model.PachinkoData" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:52:18:229-Trace>>The data:GameServer.Script.Model.PachinkoData loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.PachinkoManager.Boolean FindPachinko(GameServer.Script.Model.PachinkoData ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.PachinkoData] ByRef, Int32) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 100
+   at GameServer.Script.CsScript.PachinkoManager.Void CheckPachinkoInCache() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 86
+   at GameServer.Script.CsScript.PachinkoManager.Void Init() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 45
+   at Game.Script.MainClass.Void OnStartAffer() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:line 45
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void ReStart() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 115
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 51
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 503
+   at System.Dynamic.UpdateDelegates.Void UpdateAndExecuteVoid2[T0,T1](System.Runtime.CompilerServices.CallSite, T0, T1)
+   at ZyGames.Framework.Script.ScriptEngines.Boolean RunMainProgram(System.String[]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:line 453
+   at ZyGames.Framework.Game.Runtime.RuntimeHost+<RunAsync>d__12.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 190
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.System.Threading.Tasks.Task RunAsync()
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.Void Run() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 137
+   at ZyGames.Framework.Game.Runtime.ConsoleRuntimeHost.Void Start(System.Action) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\ConsoleRuntimeHost.cs:line 85
+   at GameServer.Program.Void Main(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Program.cs:line 36
+
+
+
+Time:2017-11-09 16:52:18:242-Trace>>Get redis "GameServer.Script.Model.PachinkoData" key:"GameServer.Script.Model.PachinkoData" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:52:18:252-Trace>>The data:GameServer.Script.Model.PachinkoData loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.PachinkoManager.Boolean FindPachinko(GameServer.Script.Model.PachinkoData ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.PachinkoData] ByRef, Int32) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 100
+   at GameServer.Script.CsScript.PachinkoManager.Void CheckPachinkoInCache() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 86
+   at GameServer.Script.CsScript.PachinkoManager.Void Init() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:line 45
+   at Game.Script.MainClass.Void OnStartAffer() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\MainClass.cs:line 45
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void ReStart() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 115
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 51
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void Start(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 503
+   at System.Dynamic.UpdateDelegates.Void UpdateAndExecuteVoid2[T0,T1](System.Runtime.CompilerServices.CallSite, T0, T1)
+   at ZyGames.Framework.Script.ScriptEngines.Boolean RunMainProgram(System.String[]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:line 453
+   at ZyGames.Framework.Game.Runtime.RuntimeHost+<RunAsync>d__12.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 190
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.System.Threading.Tasks.Task RunAsync()
+   at ZyGames.Framework.Game.Runtime.RuntimeHost.Void Run() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\RuntimeHost.cs:line 137
+   at ZyGames.Framework.Game.Runtime.ConsoleRuntimeHost.Void Start(System.Action) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Runtime\ConsoleRuntimeHost.cs:line 85
+   at GameServer.Program.Void Main(System.String[]) file E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Program.cs:line 36
+
+
+
+Time:2017-11-09 16:56:56:649-Trace>>Get redis "GameServer.Script.Model.User" key:"GameServer.Script.Model.User" cache error:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: . Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.Deserialize(String entity, Type type, JsonConverter[] converters) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 133
+   在 ZyGames.Framework.Common.Serialization.JsonUtils.DeserializeCustom(String entity, Type type, String formatDate) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonUtils.cs:行号 118
+   在 ZyGames.Framework.Common.Serialization.JsonCacheSerializer.Deserialize(Byte[] data, Type type) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework.Common\Serialization\JsonCacheSerializer.cs:行号 62
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__53`1.<TryGetValue>b__53_2(Byte[] t) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Redis\RedisConnectionPool.cs:行号 982
+
+
+Time:2017-11-09 16:56:56:731-Trace>>The data:GameServer.Script.Model.User loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\Pool\BaseCachePool.cs:line 279
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryReceiveData[V](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[V] ByRef) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 919
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 382
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean OnLoad(ZyGames.Framework.Net.DbDataFilter) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 554
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 699
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\CacheContainer.cs:line 141
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 989
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad() file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 180
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\EntityContainer.cs:line 289
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Void ForeachEntity(System.Func`3[System.String,T,System.Boolean]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\BaseCacheStruct.cs:line 219
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T Find(System.Predicate`1[T]) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Cache\Generic\ShareCacheStruct.cs:line 442
+   at GameServer.Script.CsScript.Action.Action1002.Boolean FindUser(GameServer.Script.Model.User ByRef, ZyGames.Framework.Cache.Generic.ShareCacheStruct`1[GameServer.Script.Model.User] ByRef) file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:line 60
+   at GameServer.Script.CsScript.Action.Action1002.Boolean TakeAction() file e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1002.cs:line 32
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:line 191
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:line 314
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:line 124
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:line 104
+   at ZyGames.Framework.Game.Contract.GameBaseHost.Void DoAction(ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameBaseHost.cs:line 134
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__18.Void MoveNext() file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 278
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs) file E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Contract\GameSocketHost.cs:line 203
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\RPC\Sockets\SocketListener.cs:line 105
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\RPC\Sockets\SocketListener.cs:line 468
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs) file E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\RPC\Sockets\SocketListener.cs:line 357
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+

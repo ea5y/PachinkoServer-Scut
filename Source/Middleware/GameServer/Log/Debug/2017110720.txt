@@ -124,3 +124,9 @@ Time:2017-11-07 20:40:23:590-Trace>>Socket connect status: TotalCount=16, Curren
 Time:2017-11-07 20:41:23:725-Trace>>Socket connect status: TotalCount=16, CurrentCount=0, CloseCount=16, RejectedCount=0
 
 
+Time:2017-11-07 20:42:23:727-Trace>>Socket connect status: TotalCount=16, CurrentCount=0, CloseCount=16, RejectedCount=0
+
+
+Time:2017-11-07 20:43:23:733-Trace>>Socket connect status: TotalCount=16, CurrentCount=0, CloseCount=16, RejectedCount=0
+
+

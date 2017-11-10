@@ -31,6 +31,9 @@ namespace GameServer.Script.Model
         [ProtoMember(6)]
         [EntityField]
         public PachinkoStateType StateType { get; set; }
+        [ProtoMember(7)]
+        [EntityField]
+        public PachinkoType Type { get; set; }
     }
 
     public enum PachinkoStateType
@@ -41,5 +44,11 @@ namespace GameServer.Script.Model
         Maintain,
         Reset,
         LostConnection
+    }
+
+    public enum PachinkoType
+    {
+        None,
+        Recommend
     }
 }

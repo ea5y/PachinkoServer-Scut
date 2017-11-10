@@ -1,11 +1,13 @@
-﻿using GameServer.CsScript.CommunicationDataStruct;
+﻿using GameServer.CsScript.ProtocStruct;
 using GameServer.Script.CsScript.Cast;
+using GameServer.Script.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ZyGames.Framework.Cache.Generic;
 using ZyGames.Framework.Game.Service;
 
 namespace GameServer.Script.CsScript.Action
@@ -31,6 +33,9 @@ namespace GameServer.Script.CsScript.Action
 
         public override bool TakeAction()
         {
+            var cache = new ShareCacheStruct<PachinkoData>();
+            //var filter = new DbDataFilter
+            //cache.TryRecoverFromDb()
             /*
             var syncData = new SyncStateData() { UserId = Current.UserId, State = _stateData.State };
             DispatchCast.Send(new CastSyncPlayerState(Current, syncData));

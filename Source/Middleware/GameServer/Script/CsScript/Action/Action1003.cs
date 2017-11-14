@@ -35,18 +35,43 @@ namespace GameServer.Script.CsScript.Action
 
         public override bool TakeAction()
         {
-            //@TODO http req for deal switch
             _resData = new DealSwitchRes();
-            if(PachinkoManager.Inst.ChangePachinkoState(_reqData.PachinkoId, Model.PachinkoStateType.Occupied))
+            if (_reqData.SwitchType == "on")
+            {
+                _resData.ReturnCode = this.StartPlayGame() ? 0 : -1;
+            }
+
+            if (_reqData.SwitchType == "off")
+            {
+                _resData.ReturnCode = this.EndPlayGame() ? 0 : -1;
+            }
+
+            return true;
+        }
+
+        private bool StartPlayGame()
+        {
+            //@TODO http req for deal switch
+            return this.ChangePachinko(Model.PachinkoStateType.Occupied);
+        }
+
+        private bool EndPlayGame()
+        {
+            //@TODO http req for deal switch
+            return this.ChangePachinko(Model.PachinkoStateType.Unoccupied);
+        }
+
+        private bool ChangePachinko(Model.PachinkoStateType stateType)
+        {
+            if(PachinkoManager.Inst.ChangePachinkoState(_reqData.PachinkoId, stateType))
             {
                 DispatchCast.Send(new CastChangePachinkoState(Current, _reqData.PachinkoId));
-                _resData.ReturnCode = 0;
+                return true;
             }
             else
             {
-                _resData.ReturnCode = -1;
+                return false;
             }
-            return true;
         }
 
         public override void BuildPacket()

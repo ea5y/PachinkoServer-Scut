@@ -18,7 +18,7 @@ namespace GameServer.Script.CsScript.Cast
             _session = session;
             _data = new ChangePachinkoStateDataCast();
             PachinkoData pData;
-            PachinkoManager.Inst.FindPachinko(id, out pData);
+            PachinkoManager.Inst.FindPachinkoData(id, out pData);
             _data.Id = pData.Id;
             _data.StateType = pData.StateType;
             _data.Type = pData.Type;

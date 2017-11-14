@@ -1,0 +1,11 @@
+Time:2017-11-14 14:12:22:646-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1003.cs, Line:64
+Message:应输入 ;
+
+
+Time:2017-11-14 14:12:22:667-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 375
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp() 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 291
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 312
+
+

@@ -32,9 +32,8 @@ namespace GameServer.Script.CsScript
 
         }
 
-        private PachinkoDataSet _pachinkoDataSet;
         private Config.PachinkoConfigSet _pachinkoConfigSet;
-        private Dictionary<int, PachinkoData> _pachinkoDic = new Dictionary<int, PachinkoData>();
+        private ShareCacheStruct<PachinkoData> _pachinkoCache;
 
         #region Init
         public void Init()
@@ -46,86 +45,68 @@ namespace GameServer.Script.CsScript
             //open ydu
             //@TODO
 
+            Console.WriteLine("===>PachinkoManager init cache");
+            this.InitPachinkoDataCache();
+
             Console.WriteLine("===>PachinkoManager check pachinko in cache");
-            this.CheckPachinkoInCache();
-            Console.WriteLine("===>PachinkoManager init set");
-            this.InitPachinkoDataSet();
-            Console.WriteLine("===>PachinkoManager init dic");
-            this.InitPachinkoDic();
+            this.CheckPachinkoDataInCache();
             Console.WriteLine("PachinkoManager init complete!");
         }
 
-        private void InitPachinkoDic()
+        private void InitPachinkoDataCache()
         {
-            foreach(var p in _pachinkoDataSet.PachinkoDataSetList)
-            {
-                _pachinkoDic[p.Id] = p;
-            }
+            _pachinkoCache = new ShareCacheStruct<PachinkoData>();
         }
 
-        private void InitPachinkoDataSet()
-        {
-            var pachinkoCache = new ShareCacheStruct<PachinkoData>();
-            var datas = pachinkoCache.FindAll();
-            _pachinkoDataSet = new PachinkoDataSet();
-            foreach(var data in datas)
-            {
-                /*
-                PachinkoData pData = new PachinkoData();
-                pData.Id = data.Id;
-                pData.Times = data.Times;
-                pData.Sum = data.Sum;
-                pData.PbChange = data.PbChange;
-                pData.Award = data.Award;
-                pData.StateType = PachinkoStateType.Unoccupied;
-                */
-
-                _pachinkoDataSet.PachinkoDataSetList.Add(data);
-            }
-        }
-
-        private void CheckPachinkoInCache()
+        private void CheckPachinkoDataInCache()
         {
             foreach(var conf in _pachinkoConfigSet.PachinkoConfigList)
             {
-                PachinkoData pachinko;
-                ShareCacheStruct<PachinkoData> pachinkoCache;
-                if (!this.FindPachinko(out pachinko, out pachinkoCache, conf.Id))
+                PachinkoData pachinkoData = null;
+                if(!this.FindPachinkoData(conf.Id, out pachinkoData))
                 {
-                    //Create pachinko
-                    this.CreatePchinko(pachinkoCache, conf.Id);
+                    //Create PachinkoData
+                    this.CreatePchinkoData(conf.Id);
+                }
+                else
+                {
+                    this.ModifyPachinkoDataState(pachinkoData, PachinkoStateType.Unoccupied);
                 }
             }
         }
 
-        private bool FindPachinko(out PachinkoData pachinko, out ShareCacheStruct<PachinkoData> pachinkoCache, int id)
+        public bool FindPachinkoData(int pachinkoId, out PachinkoData pachinkoData)
         {
-            pachinko = null;
-            pachinkoCache = null;
-
-            pachinkoCache = new ShareCacheStruct<PachinkoData>();
-            pachinko = pachinkoCache.Find(p => p.Id == id);
-            return pachinko != null;
+            pachinkoData = _pachinkoCache.Find(p => p.Id == pachinkoId);
+            return pachinkoData != null;
         }
 
-        private void CreatePchinko(ShareCacheStruct<PachinkoData> pachinkoCache, int id)
+        private void CreatePchinkoData(int id)
         {
             var pachinkoData = new PachinkoData() { Id = id };
-            pachinkoCache.Add(pachinkoData);
+            _pachinkoCache.Add(pachinkoData);
         }
         #endregion
 
         public PachinkoDataSet GetPachinkoDataSet()
         {
-            return _pachinkoDataSet;
+            //var pachinkoCache = new ShareCacheStruct<PachinkoData>();
+            var pachinkoCache = _pachinkoCache;
+            var datas = pachinkoCache.FindAll();
+            var pachinkoDataSet = new PachinkoDataSet();
+            foreach(var data in datas)
+            {
+                pachinkoDataSet.PachinkoDataSetList.Add(data);
+            }
+            return pachinkoDataSet;
         }
 
         public bool ChangePachinkoState(int pachinkoId, PachinkoStateType stateType)
         {
             PachinkoData pachinko;
-            if(this.FindPachinko(pachinkoId, out pachinko))
+            if(this.FindPachinkoData(pachinkoId, out pachinko))
             {
-                pachinko.StateType = stateType;
+                this.ModifyPachinkoDataState(pachinko, stateType);
                 return true;
             }
             else
@@ -134,10 +115,14 @@ namespace GameServer.Script.CsScript
             }
         }
 
-        public bool FindPachinko(int pachinkoId, out PachinkoData pachinkoData)
+        private void ModifyPachinkoDataState(PachinkoData pachinkoData, PachinkoStateType stateType)
         {
-            pachinkoData = _pachinkoDic[pachinkoId];
-            return pachinkoData != null;
+            if(pachinkoData != null)
+            {
+                pachinkoData.ModifyLocked(() => {
+                    pachinkoData.StateType = stateType;
+                });
+            }
         }
 
         #region Brodcast

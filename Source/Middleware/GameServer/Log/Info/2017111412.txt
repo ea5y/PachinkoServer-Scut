@@ -1,0 +1,61 @@
+12:03:22 Clear expired cache end.
+12:13:22 Clear expired cache end.
+12:23:23 Clear expired cache end.
+12:33:23 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+12:39:37 Server is starting...
+12:39:37 Redis server connect successfully.
+12:39:37 DB server connect successfully.
+12:39:39 Start checking table schema, please wait.
+12:39:39 Check table schema successfully.
+12:39:39 script compiled successfully.
+12:39:39 CacheFactory listen has started...
+12:39:39 Socket service 192.168.1.181:9001 is started.
+12:39:39 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+12:47:33 Server is starting...
+12:47:34 Redis server connect successfully.
+12:47:34 DB server connect successfully.
+12:47:36 Start checking table schema, please wait.
+12:47:36 Check table schema successfully.
+12:47:36 script compiled successfully.
+12:47:36 CacheFactory listen has started...
+12:47:38 Socket service 192.168.1.181:9001 is started.
+12:48:09 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.11 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+12:59:50 Server is starting...
+12:59:50 Redis server connect successfully.
+12:59:50 DB server connect successfully.
+12:59:52 Start checking table schema, please wait.
+12:59:52 Check table schema successfully.
+12:59:52 script compiled successfully.
+12:59:52 CacheFactory listen has started...
+12:59:52 Socket service 192.168.1.181:9001 is started.
+12:59:52 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

@@ -1,0 +1,12 @@
+Time:2017-11-13 15:59:28:188-Trace>>ClearTemp dir E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“ZyGames.Framework.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+
+Time:2017-11-13 15:59:29:161-Trace>>ClearTemp dir E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp error:System.UnauthorizedAccessException: 对路径“anv35xta.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName) 位置 E:\project\PachinkoServer-Scut\Source\Framework\ZyGames.Framework\Script\ScriptCompiler.cs:行号 93
+
+

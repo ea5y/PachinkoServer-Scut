@@ -1,0 +1,9 @@
+﻿E:\project\PachinkoServer-Scut\Source\Middleware\GameServer> "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /t:library /utf8output /R:"System.dll" /R:"System.Core.dll" /R:"System.Data.dll" /R:"System.Xml.dll" /R:"System.Xml.Linq.dll" /R:"Microsoft.CSharp.dll" /R:"System.Configuration.dll" /R:"System.Web.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\NLog.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Newtonsoft.Json.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\protobuf-net.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\ServiceStack.Redis.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\ZyGames.Framework.Common.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\ZyGames.Framework.dll" /R:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\ZyGames.Framework.Game.dll" /out:"E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\temp\wlksxytt.dll" /D:DEBUG /debug+ /optimize- /checked  "E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\User.cs" "E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\UserData.cs" "E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\Properties\AssemblyInfo.cs" "E:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\Model\PachinkoData.cs"
+
+
+Microsoft (R) Visual C# Compiler version 4.6.1055.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+

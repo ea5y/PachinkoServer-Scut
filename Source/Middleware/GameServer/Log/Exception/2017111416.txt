@@ -1,0 +1,8 @@
+Time:2017-11-14 16:14:20:221-Trace>>Action1005 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.Script.CsScript.PachinkoManager.GetPachinkoDataSet() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\PachinkoManager.cs:行号 91
+   在 GameServer.Script.CsScript.Action.Action1005.TakeAction() 位置 e:\project\PachinkoServer-Scut\Source\Middleware\GameServer\Script\CsScript\Action\Action1005.cs:行号 23
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction() 位置 E:\project\PachinkoServer-Scut\Source\Middleware\ZyGames.Framework.Game\Service\BaseStruct.cs:行号 191.
+Url:MsgId=3&ActionId=1005&Sid=s_464225a5d1d94b13a67b7e27e1904244|0|0&Uid=&Data=, Uid:1, Pid:
+Host:192.168.1.181:61190
+
+
